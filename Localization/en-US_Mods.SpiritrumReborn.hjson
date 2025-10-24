@@ -1,0 +1,23 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	SpiritBlade: {
+		DisplayName: Spirit Blade
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	SkullBow: {
+		Tooltip: Fires Cross Bones
+		DisplayName: Skull Bow
+	}
+
+	AdminBlade: {
+		Tooltip: You are not supposed to have that
+		DisplayName: Admin Blade
+	}
+}
