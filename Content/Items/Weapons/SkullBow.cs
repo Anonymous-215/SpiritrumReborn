@@ -30,7 +30,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
             Item.noMelee = true; 
             Item.consumable = false; 
         }
-        // This time I took that from Example mod and other source code
+        // This time I took that from Example mod and other source codes
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
             Projectile.NewProjectile(source, position, velocity, ProjectileID.BoneGloveProj, damage, knockback, player.whoAmI);
