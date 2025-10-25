@@ -11,7 +11,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
         public override void SetDefaults()
         {
             // This is without the projectile, which needs to be remade at the same time.
-            Item.damage = 48;
+            Item.damage = 35;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
@@ -23,7 +23,9 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.value = Item.buyPrice(gold: 3);
 			Item.rare = ItemRarityID.Orange;
 			Item.UseSound = SoundID.Item1;
-			Item.autoReuse = true;
+            Item.autoReuse = true;
+            Item.shoot = ModContent.ProjectileType<Content.Projectiles.FireScytheSlash>();
+            Item.shootSpeed = 10f;
         }
 
         public override void AddRecipes()

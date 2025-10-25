@@ -27,9 +27,17 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
 		}
+		public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemType<Content.Items.Materials.ObscuroniteAlloy>(), 12);
+			// will have a special item here
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+        }
 	}
 }
 
-// Ancient weapons are super weapons that can be upgraded through out the progression
+// Ancient weapons are weapons that have upgrades through out the progression
 // Currently only this one exists
 // There will be, an ancient bow, an ancient tome and an ancient whip.
