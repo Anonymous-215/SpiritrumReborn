@@ -20,4 +20,19 @@ Items: {
 		Tooltip: You are not supposed to have that
 		DisplayName: Admin Blade
 	}
+
+	WhisperingBlade: {
+		DisplayName: Whispering Blade
+		Tooltip: ""
+	}
+
+	StealthNodachi: {
+		DisplayName: Stealth Nodachi
+		Tooltip: ""
+	}
+
+	Wickerman: {
+		DisplayName: Wickerman
+		Tooltip: ""
+	}
 }

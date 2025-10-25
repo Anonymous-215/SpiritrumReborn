@@ -25,8 +25,8 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.knockBack = 6;
             Item.crit = 8;
 			Item.scale = 1.6f;
-			Item.value = Item.buyPrice(Gold: 20);
-			Item.rare = ItemRarityID.Lime;
+			Item.value = Item.buyPrice(gold: 20);
+			Item.rare = ItemRarityID.Purple;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
         }

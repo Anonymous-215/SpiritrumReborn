@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpiritrumReborn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991bc94a66ab0237a8954ec9d4dbd5abd017d46a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f17af871a157f03cc51433b00f99674b76c9f32")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpiritrumReborn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpiritrumReborn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
