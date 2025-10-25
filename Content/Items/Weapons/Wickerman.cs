@@ -19,6 +19,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.useAnimation = 24;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6f;
+            Item.scale = 1.2f;//buffed, now is 1.2x bigger than before
 			Item.value = Item.buyPrice(gold: 3);
 			Item.rare = ItemRarityID.Orange;
 			Item.UseSound = SoundID.Item1;
