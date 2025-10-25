@@ -33,7 +33,7 @@ Items: {
 
 	Wickerman: {
 		DisplayName: Wickerman
-		Tooltip: Flaming scythe of infernal eclipse
+		Tooltip: Shoots out exploding scythe heads
 	}
 
 	FurryClaw: {
@@ -88,3 +88,5 @@ WorldGen: {
 	ObscuroniteOrePassMessage: Mods.SpiritrumReborn.WorldGen.ObscuroniteOrePassMessage
 	BlessedWithObscuroniteOreMessage: Mods.SpiritrumReborn.WorldGen.BlessedWithObscuroniteOreMessage
 }
+
+Projectiles.FireScytheSlash.DisplayName: Fire Scythe Slash

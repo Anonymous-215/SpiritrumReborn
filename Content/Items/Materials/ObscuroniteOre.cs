@@ -10,7 +10,7 @@ namespace SpiritrumReborn.Content.Items.Materials
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 100;
 			ItemID.Sets.SortingPriorityMaterials[Item.type] = 58;
-			Item.rare = ItemRarityID.Green;
+			
 		}
 
 		public override void SetDefaults() {
@@ -18,6 +18,8 @@ namespace SpiritrumReborn.Content.Items.Materials
 			Item.width = 12;
 			Item.height = 12;
 			Item.value = 3000;
+			Item.maxStack = 9999;
+			Item.rare = ItemRarityID.Green;
 		}
 	}
 }

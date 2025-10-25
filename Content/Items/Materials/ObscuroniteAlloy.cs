@@ -16,6 +16,8 @@ namespace SpiritrumReborn.Content.Items.Materials
 			Item.width = 20;
 			Item.height = 20;
 			Item.value = 750; 
+			Item.maxStack = 9999;
+			Item.rare = ItemRarityID.Green;
 		}
 		public override void AddRecipes() {
 			CreateRecipe()

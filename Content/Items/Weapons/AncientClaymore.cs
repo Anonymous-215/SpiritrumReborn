@@ -27,6 +27,14 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
 		}
+		public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemType<Content.Items.Materials.ObscuroniteAlloy>(), 12);
+			// will have a special item here
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+        }
 	}
 }
 
