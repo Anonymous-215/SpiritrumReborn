@@ -1,92 +1,133 @@
-﻿# This file will automatically update with entries for new content after a build and reload.
+# This file will automatically update with entries for new content after a build and reload.
 
 Items: {
-SpiritBlade: {
-DisplayName: Spirit Blade
-Tooltip:
-'''
-Spirits...
-Never...
-Sleep
-'''
+	SpiritBlade: {
+		DisplayName: Spirit Blade
+		Tooltip:
+			'''
+			Spirits...
+			Never...
+			Sleep
+			'''
+	}
+
+	SkullBow: {
+		Tooltip: Fires Cross Bones
+		DisplayName: Skull Bow
+	}
+
+	AdminBlade: {
+		Tooltip: You are not supposed to have that
+		DisplayName: Admin Blade
+	}
+
+	WhisperingBlade: {
+		DisplayName: Whispering Blade
+		Tooltip: ""
+	}
+
+	StealthNodachi: {
+		DisplayName: Stealth Nodachi
+		Tooltip: ""
+	}
+
+	Wickerman: {
+		DisplayName: Wickerman
+		Tooltip: Shoots out exploding scythe heads
+	}
+
+	FurryClaw: {
+		DisplayName: Furry Claw
+		Tooltip: ""
+	}
+
+	GoogPaw: {
+		DisplayName: Goog Paw
+		Tooltip: Goog...
+	}
+
+	AncientClaymore: {
+		DisplayName: Ancient Claymore
+		Tooltip:
+			'''
+			No one knows how old this blade is.
+			Some say it was here before the wrath of the creators.
+			Some say it was here right after this event.
+			'''
+	}
+
+	BerserkedAncientClaymore: {
+		DisplayName: Berserked Ancient Claymore
+		Tooltip: Anger
+	}
+
+	ExplodingAncientClaymore: {
+		DisplayName: Exploding Ancient Claymore
+		Tooltip: Power
+	}
+
+	FrenziedAncientClaymore: {
+		DisplayName: Frenzied Ancient Claymore
+		Tooltip: Speed
+	}
+
+	ObscuroniteOre: {
+		DisplayName: Obscuronite Ore
+		Tooltip: ""
+	}
+
+	ObscuroniteAlloy: {
+		DisplayName: Obscuronite Alloy
+		Tooltip: ""
+	}
+
+	ObscurioniteHelmet: {
+		SetBonus: +15% critical chance
+		DisplayName: Obscurionite Helmet
+		Tooltip:
+			'''
+			+15% melee speed
+			+10% melee damage
+			'''
+	}
+
+	ObscurioniteBreastplate: {
+		DisplayName: Obscurionite Breastplate
+		Tooltip:
+			'''
+			+60 max mana
+			+2 max summons
+			'''
+	}
+
+	ObscurioniteLeggings: {
+		DisplayName: Obscurionite Leggings
+		Tooltip:
+			'''
+			+20% movement speed
+			+15% ranged damage
+			'''
+	}
+
+	ObscurioniteAlloy: {
+		DisplayName: Obscurionite Alloy
+		Tooltip: ""
+	}
+
+	ObscurioniteOre: {
+		DisplayName: Obscurionite Ore
+		Tooltip: ""
+	}
 }
 
-SkullBow: {
-Tooltip: Fires Cross Bones
-DisplayName: Skull Bow
+Tiles: {
+	ObscuroniteOre.MapEntry: Obscuronite Ore
+	ObscurioniteOre.MapEntry: Obscurionite Ore
 }
-
-AdminBlade: {
-Tooltip: You are not supposed to have that
-DisplayName: Admin Blade
-}
-
-WhisperingBlade: {
-DisplayName: Whispering Blade
-Tooltip: ""
-}
-
-StealthNodachi: {
-DisplayName: Stealth Nodachi
-Tooltip: ""
-}
-
-Wickerman: {
-DisplayName: Wickerman
-Tooltip: Shoots out exploding scythe heads
-}
-
-FurryClaw: {
-DisplayName: Furry Claw
-Tooltip: ""
-}
-
-GoogPaw: {
-DisplayName: Goog Paw
-Tooltip: Goog...
-}
-
-AncientClaymore: {
-DisplayName: Ancient Claymore
-Tooltip:
-'''
-No one knows how old this blade is.
-Some say it was here before the wrath of the creators.
-Some say it was here right after this event.
-'''
-}
-
-BerserkedAncientClaymore: {
-DisplayName: Berserked Ancient Claymore
-Tooltip: Anger
-}
-
-ExplodingAncientClaymore: {
-DisplayName: Exploding Ancient Claymore
-Tooltip: Power
-}
-
-FrenziedAncientClaymore: {
-DisplayName: Frenzied Ancient Claymore
-Tooltip: Speed
-}
-
-ObscuroniteOre: {
-DisplayName: Obscuronite Ore
-Tooltip: ""
-}
-
-ObscuroniteAlloy: {
-DisplayName: Obscuronite Alloy
-Tooltip: ""
-}
-}
-
-Tiles.ObscuroniteOre.MapEntry: Obscuronite Ore
 
 WorldGen: {
-ObscuroniteOrePassMessage: Mods.SpiritrumReborn.WorldGen.ObscuroniteOrePassMessage
-BlessedWithObscuroniteOreMessage: Mods.SpiritrumReborn.WorldGen.BlessedWithObscuroniteOreMessage
+	ObscuroniteOrePassMessage: Mods.SpiritrumReborn.WorldGen.ObscuroniteOrePassMessage
+	BlessedWithObscuroniteOreMessage: Mods.SpiritrumReborn.WorldGen.BlessedWithObscuroniteOreMessage
 }
 
 Projectiles.FireScytheSlash.DisplayName: Fire Scythe Slash

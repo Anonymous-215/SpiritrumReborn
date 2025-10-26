@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace SpiritrumReborn.Content.Items.Materials
 {
-	public class ObscuroniteAlloy : ModItem
+	public class ObscurioniteAlloy : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 25;
@@ -21,7 +21,7 @@ namespace SpiritrumReborn.Content.Items.Materials
 		}
 		public override void AddRecipes() {
 			CreateRecipe()
-				.AddIngredient<ObscuroniteOre>(4)
+				.AddIngredient<ObscurioniteOre>(4)
 				.AddTile(TileID.Furnaces)
 				.Register();
 		}

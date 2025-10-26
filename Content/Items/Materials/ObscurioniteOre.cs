@@ -5,7 +5,7 @@ using SpiritrumReborn.Content;
 
 namespace SpiritrumReborn.Content.Items.Materials
 {
-	public class ObscuroniteOre : ModItem
+	public class ObscurioniteOre : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 100;
@@ -14,7 +14,7 @@ namespace SpiritrumReborn.Content.Items.Materials
 		}
 
 		public override void SetDefaults() {
-			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.ObscuroniteOre>());
+			Item.DefaultToPlaceableTile(ModContent.TileType<Content.Tiles.ObscurioniteOre>());
 			Item.width = 12;
 			Item.height = 12;
 			Item.value = 3000;

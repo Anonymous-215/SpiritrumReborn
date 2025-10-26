@@ -4,15 +4,15 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using SpiritrumReborn.Content.Items.Materials;
 
-namespace SpiritrumReborn.Content.Items.Armor
+namespace SpiritrumReborn.Content.Items.Armor.Obscurionite
 {
 	// The AutoloadEquip attribute automatically attaches an equip texture to this item.
 	// Providing the EquipType.Body value here will result in TML expecting a X_Body.png file to be placed next to the item's main texture.
 	[AutoloadEquip(EquipType.Body)]
 	public class ObscurioniteBreastplate : ModItem
 	{
-		public static readonly int MaxManaIncrease = 20;
-		public static readonly int MaxMinionIncrease = 1;
+		public static readonly int MaxManaIncrease = 60;
+		public static readonly int MaxMinionIncrease = 2;
 
 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(MaxManaIncrease, MaxMinionIncrease);
 
@@ -21,7 +21,7 @@ namespace SpiritrumReborn.Content.Items.Armor
 			Item.height = 18; // Height of the item
 			Item.value = Item.sellPrice(gold: 1); // How many coins the item is worth
 			Item.rare = ItemRarityID.Green; // The rarity of the item
-			Item.defense = 6; // The amount of defense the item will give when equipped
+			Item.defense = 10; // The amount of defense the item will give when equipped
 		}
 
 		public override void UpdateEquip(Player player) {

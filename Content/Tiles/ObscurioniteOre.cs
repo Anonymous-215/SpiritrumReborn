@@ -11,7 +11,7 @@ using Terraria.WorldBuilding;
 
 namespace SpiritrumReborn.Content.Tiles
 {
-	public class ObscuroniteOre : ModTile
+	public class ObscurioniteOre : ModTile
 	{
 		public override void SetStaticDefaults() {
 			TileID.Sets.Ore[Type] = true;
@@ -71,7 +71,7 @@ namespace SpiritrumReborn.Content.Tiles
 			for (int k = 0; k < (int)(Main.maxTilesX * Main.maxTilesY * 0.0006); k++) {
 				int x = WorldGen.genRand.Next(0, Main.maxTilesX);
 				int y = WorldGen.genRand.Next(Main.maxTilesY - 200, Main.maxTilesY);
-				WorldGen.TileRunner(x, y, WorldGen.genRand.Next(4, 7), WorldGen.genRand.Next(4, 7), ModContent.TileType<ObscuroniteOre>());
+				WorldGen.TileRunner(x, y, WorldGen.genRand.Next(4, 7), WorldGen.genRand.Next(4, 7), ModContent.TileType<ObscurioniteOre>());
 			}
 		}
 	}

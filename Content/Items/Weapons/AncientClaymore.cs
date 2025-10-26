@@ -3,8 +3,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization; 
-using System.Collections.Generic; 
+using System.Collections.Generic;
 using static Terraria.ModLoader.ModContent;
+using SpiritrumReborn.Content.Items.Materials;
 
 namespace SpiritrumReborn.Content.Items.Weapons
 {
@@ -30,7 +31,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
 		public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemType<Content.Items.Materials.ObscuroniteAlloy>(), 12);
+            recipe.AddIngredient(ItemType<ObscurioniteAlloy>(), 12);
 			// will have a special item here
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
