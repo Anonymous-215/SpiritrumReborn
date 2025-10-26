@@ -137,6 +137,44 @@ Items: {
 		DisplayName: Painter's Pride
 		Tooltip: ""
 	}
+
+	HealthToken: {
+		DisplayName: Health Token
+		Tooltip: +20 max health and +1 life regen
+	}
+
+	ManaToken: {
+		DisplayName: Mana Token
+		Tooltip: +20 max mana and +1 mana regen
+	}
+
+	DragonheartInsignia: {
+		DisplayName: Dragonheart Insignia
+		Tooltip:
+			'''
+			Infinite flight time
+			Massively increased mobility
+			'''
+	}
+
+	GelaticCrown: {
+		DisplayName: Gelatic Crown
+		Tooltip:
+			'''
+			+10% movement speed
+			Slight increase jump speed
+			Fall damage immunity
+			'''
+	}
+
+	CommanderManual: {
+		DisplayName: Commander Manual
+		Tooltip:
+			'''
+			+2 sentry slots
+			+8% summon damage
+			'''
+	}
 }
 
 Tiles: {
