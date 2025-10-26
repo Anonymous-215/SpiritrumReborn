@@ -11,12 +11,12 @@ namespace SpiritrumReborn.Content.Items.Weapons
         public override void SetDefaults()
         {
             // This is without the projectile, which needs to be remade at the same time.
-            Item.damage = 35;
+            Item.damage = 32;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
-			Item.useTime = 24;
-			Item.useAnimation = 24;
+			Item.useTime = 28;
+			Item.useAnimation = 28;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6f;
             Item.scale = 1.2f;//buffed, now is 1.2x bigger than before

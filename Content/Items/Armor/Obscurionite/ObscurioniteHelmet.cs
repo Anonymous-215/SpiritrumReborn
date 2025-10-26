@@ -27,6 +27,7 @@ namespace SpiritrumReborn.Content.Items.Armor.Obscurionite
 			// ArmorIDs.Head.Sets.DrawsBackHairWithoutHeadgear[Item.headSlot] = true;
 
 			SetBonusText = this.GetLocalization("SetBonus").WithFormatArgs(SetBonusCritChance);
+			ArmorIDs.Head.Sets.DrawHead[Item.headSlot] = false;
 		}
 
 		public override void SetDefaults() {
@@ -56,10 +57,14 @@ namespace SpiritrumReborn.Content.Items.Armor.Obscurionite
 
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
-			CreateRecipe()
-				.AddIngredient<ObscurioniteAlloy>(10)
-                .AddTile(TileID.Anvils)
-				.Register();
+				Recipe recipe =CreateRecipe();
+				recipe.AddIngredient<ObscurioniteAlloy>(15);
+				recipe.AddIngredient(ItemID.BeeHeadgear, 1);
+            	recipe.AddIngredient(ItemID.NecroHelmet, 1);
+            	recipe.AddIngredient(ItemID.MoltenHelmet, 1);
+            	recipe.AddIngredient(ItemID.JungleHat, 1);
+                recipe.AddTile(TileID.Anvils);
+				recipe.Register();
 		}
 	}
 }

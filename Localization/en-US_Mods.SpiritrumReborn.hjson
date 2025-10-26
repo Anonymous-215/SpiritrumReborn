@@ -118,6 +118,25 @@ Items: {
 		DisplayName: Obscurionite Ore
 		Tooltip: ""
 	}
+
+	WitchLocket: {
+		DisplayName: Witch Locket
+		Tooltip:
+			'''
+			+12% summon damage
+			+2 max summons
+			'''
+	}
+
+	ObscurionitePickaxe: {
+		DisplayName: Obscurionite Pickaxe
+		Tooltip: ""
+	}
+
+	PainterPride: {
+		DisplayName: Painter's Pride
+		Tooltip: ""
+	}
 }
 
 Tiles: {

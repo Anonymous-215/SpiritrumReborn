@@ -32,9 +32,14 @@ namespace SpiritrumReborn.Content.Items.Armor.Obscurionite
 
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
-			CreateRecipe().AddIngredient<ObscurioniteAlloy>(10)
-				.AddTile(TileID.Anvils)
-				.Register();
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient<ObscurioniteAlloy>(25);
+			recipe.AddIngredient(ItemID.BeeBreastplate, 1);
+        	recipe.AddIngredient(ItemID.NecroBreastplate, 1);
+        	recipe.AddIngredient(ItemID.MoltenBreastplate, 1);
+        	recipe.AddIngredient(ItemID.JungleShirt, 1);
+			recipe.AddTile(TileID.Anvils);
+			recipe.Register();
 		}
 	}
 }

@@ -22,7 +22,7 @@ namespace SpiritrumReborn.Content.Items.Materials
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient<ObscurioniteOre>(4)
-				.AddTile(TileID.Furnaces)
+				.AddTile(TileID.Hellforge)
 				.Register();
 		}
 	}
