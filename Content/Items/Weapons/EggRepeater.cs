@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
 
-namespace Spiritrum.Content.Items.Weapons
+namespace SpiritrumReborn.Content.Items.Weapons
 {
     public class EggRepeater : ModItem
     {
@@ -23,12 +23,12 @@ namespace Spiritrum.Content.Items.Weapons
 			Item.useStyle = ItemUseStyleID.Shoot;
 			Item.knockBack = 2;
             Item.scale = 1f;
-			Item.value = Item.buyPrice(Silver: 5);
+			Item.value = Item.buyPrice(silver: 5);
 			Item.rare = ItemRarityID.White;
 			Item.UseSound = SoundID.Item11;
 			Item.autoReuse = true;
-            Item.useAmmo = ModContent.ItemType<SpiritrumReborn.Content.Items.Ammo.Egg>();
-            Item.shoot = ModContent.ProjectileType<SpiritrumReborn.Content.Projectiles.Egged>();
+            Item.useAmmo = ModContent.ItemType<Content.Items.Ammo.Egg>();
+            Item.shoot = ModContent.ProjectileType<Content.Projectiles.Egged>();
             Item.noMelee = true;
             Item.shootSpeed = 9f;
         }

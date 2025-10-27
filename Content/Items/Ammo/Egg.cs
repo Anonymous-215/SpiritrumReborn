@@ -16,7 +16,7 @@ namespace SpiritrumReborn.Content.Items.Ammo
             Item.value = Item.sellPrice(copper: 5);
             Item.rare = ItemRarityID.White;
             Item.ammo = ModContent.ItemType<Egg>();
-            Item.shoot = ModContent.ProjectileType<SpiritrumReborn.Content.Projectiles.Egged>();
+            Item.shoot = ModContent.ProjectileType<Content.Projectiles.Egged>();
             Item.shootSpeed = 10f;
             Item.damage = 6;
         }
@@ -24,7 +24,7 @@ namespace SpiritrumReborn.Content.Items.Ammo
         public override void AddRecipes()
         {
             CreateRecipe(3)
-                .AddIngredient(ItemID.Hay, 1);
+                .AddIngredient(ItemID.Hay, 1)
                 .Register();
         }
     }

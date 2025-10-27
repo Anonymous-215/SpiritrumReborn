@@ -56,7 +56,7 @@ namespace SpiritrumReborn.Content.Entities.Friendly
 
         public override string GetChat()
         {
-            return Main.rand.Next(21) switch // Most lines are references to other mods, since the Nameless Traveller is never and always in every world.
+            return Main.rand.Next(20) switch // Most lines are references to other mods, since the Nameless Traveller is never and always in every world.
             {
                 0 => "I wonder if my father will arrive some day. He is the [UNKNOWN DATA]",
                 1 => "There is this weird story that happened before my arrival. I do wonder what was it.",
@@ -69,16 +69,15 @@ namespace SpiritrumReborn.Content.Entities.Friendly
                 8 => "There are some secrets that can be found in the shadows.", //Secrets of the Shadows
                 9 => "I can feel that you are having a redemption arc.", //Redemption
                 10 => "Ph... sorry, I can't say much. The creators will smite me right now if I say another letter.", //Ignore that part, I'm just keeping stuff for the lore
-                11 => "Earth infested the 2nd dimension. We need to purge them out of here.", //TerMidica
-                12 => "The world of Calamity is a part of the 2nd dimension. Over there it can be either a ragnarok, or an infernal eclipse.", //Infernal Eclipse of Ragnarok
-                13 => "There is this mineral that is very obscure and deep, it should make you able to awoke any element.", //Elements awoken
-                14 => "Have fun on your journey to home.", //Homeward Journey
-                15 => "No I am not the type of guy to be Spooky.", //Spooky
-                16 => "You shall never lack any soul!", //Fargo's Souls and Bereft Souls (Reminder: Bereft = Lack of)
-                17 => "I wonder why this part of this dimension is called Spiritrum. Is it because it is a Spirit that drank rum?", //Spirit and Spiritrum
-                18 => "Abaddon? Is that some sort of joke to me? The creators banished him in the shadow realm.", //Shadows of Abaddon
-                19 => "There are 2 type of gods, old type gods and creator type gods.", //Hunt of the old gods
-                20 => "Sorry, but I do not own a console.", //Consolaria
+                11 => "The world of Calamity is a part of the 2nd dimension. Over there it can be either a ragnarok, or an infernal eclipse.", //Infernal Eclipse of Ragnarok
+                12 => "There is this mineral that is very obscure and deep, it should make you able to awake any element.", //Elements awoken
+                13 => "Have fun on your journey to home.", //Homeward Journey
+                14 => "No I am not the type of guy to be Spooky.", //Spooky
+                15 => "You shall never lack any soul!", //Fargo's Souls and Bereft Souls (Reminder: Bereft = Lack of)
+                16 => "I wonder why this part of this dimension is called Spiritrum. Is it because it is a Spirit that drank rum?", //Spirit and Spiritrum
+                17 => "Abaddon? Is that some sort of joke to me? The creators banished him in the shadow realm.", //Shadows of Abaddon
+                18 => "There are 2 type of gods, old type gods and creator type gods.", //Hunt of the old gods
+                19 => "Sorry, but I do not own a console.", //Consolaria
                 _ => "This dimension is the best out of all 11 as most say. I know it, but I can't confirm it."
             };
         }

@@ -233,7 +233,52 @@ Items: {
 
 	ElementalFlail: {
 		DisplayName: Elemental Flail
-		Tooltip: "Inflicts Hellfire while spinning and Frostbite when thrown"
+		Tooltip: Inflicts Hellfire while spinning and Frostbite when thrown
+	}
+
+	BurningFleshChunk: {
+		DisplayName: Burning Flesh Chunk
+		Tooltip: ""
+	}
+
+	RealmWalkerBoots: {
+		DisplayName: Realm Walker Boots
+		Tooltip: ""
+	}
+
+	StrategyWiki: {
+		DisplayName: Strategy Wiki
+		Tooltip: ""
+	}
+
+	SummonerOccultBook: {
+		DisplayName: Summoner Occult Book
+		Tooltip: ""
+	}
+
+	UniversalShell: {
+		DisplayName: Universal Shell
+		Tooltip: ""
+	}
+
+	UniverseWalkerTreads: {
+		DisplayName: Universe Walker Treads
+		Tooltip: ""
+	}
+
+	WarmShot: {
+		DisplayName: Warm Shot
+		Tooltip: ""
+	}
+
+	Egg: {
+		DisplayName: Egg
+		Tooltip: ""
+	}
+
+	EggRepeater: {
+		DisplayName: Egg Repeater
+		Tooltip: ""
 	}
 }
 
@@ -251,6 +296,7 @@ Projectiles: {
 	FireScytheSlash.DisplayName: Flaming Scythe Head
 	ElementalFlailBall.DisplayName: Elemental Flail
 	WhisperingBladeProjectile.DisplayName: Whispers
+	Egged.DisplayName: Egged
 }
 
 NPCs: {

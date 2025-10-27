@@ -12,7 +12,7 @@ namespace SpiritrumReborn.Content.Entities.Hostile
     {
         public override void SetStaticDefaults()
         {
-            Main.npcFrameCount[Type] = 4; 
+            Main.npcFrameCount[Type] = 10; 
         }
 
         public override void SetDefaults()
@@ -25,7 +25,7 @@ namespace SpiritrumReborn.Content.Entities.Hostile
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath2;
             NPC.value = 25f;
-            NPC.knockBackResist = 0.2f;
+            NPC.knockBackResist = 0.4f;
             NPC.aiStyle = 3;
             AIType = NPCID.Zombie;
             AnimationType = NPCID.Zombie;
@@ -51,7 +51,7 @@ namespace SpiritrumReborn.Content.Entities.Hostile
         {
             bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Times.NightTime,
-                new FlavorTextBestiaryInfoElement("Just a cat that was infected by a zombie. There is no way to save it.")
+                new FlavorTextBestiaryInfoElement("Just a cat that was infected by a zombie. There is no way to save it (Sadly).")
             });
         }
 

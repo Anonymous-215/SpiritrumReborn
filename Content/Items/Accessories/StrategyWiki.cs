@@ -2,6 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using System.Collections.Generic;
+using SpiritrumReborn.Content.Items.Accessories;
 
 namespace SpiritrumReborn.Content.Items.Accessories
 {
@@ -30,7 +31,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
 			recipe.AddIngredient(ItemID.SquireShield);
 			recipe.AddIngredient(ItemID.MonkBelt);
 			recipe.AddIngredient(ItemID.HuntressBuckler);
-			recipe.AddIngredient<CommanderManuel>(1);
+			recipe.AddIngredient(ModContent.ItemType<StrategyWiki>(), 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
 		}
