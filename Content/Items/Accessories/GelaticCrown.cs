@@ -26,7 +26,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
 			player.jumpSpeedBoost += 1.5f; 
 			player.noFallDmg = true; // I want this to be 40% fall damage taken in the end
 		}
-		public override void AddRecipes()
+		public override void AddRecipes() // I added a temporary recipe for now
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.Gel, 100); 

@@ -25,6 +25,9 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.autoReuse = true;
 		}
 
+
+		// When you kill something, it should release some homing spirits to attack nearby enemies (only true melee kills can summon them)
+
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();

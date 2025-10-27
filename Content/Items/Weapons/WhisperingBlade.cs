@@ -29,6 +29,8 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.rare = ItemRarityID.Purple;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
+			Item.shoot = ModContent.ProjectileType<Content.Projectiles.WhisperingBladeProjectile>();
+			Item.shootSpeed = 9f;
         }
     }
 }

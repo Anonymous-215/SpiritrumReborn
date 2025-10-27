@@ -175,6 +175,66 @@ Items: {
 			+8% summon damage
 			'''
 	}
+
+	NamelessEmblem: {
+		DisplayName: Nameless Emblem
+		Tooltip: Minor improvement to a a few stats
+	}
+
+	SkywarePanel: {
+		DisplayName: Skyware Panel
+		Tooltip:
+			'''
+			+5% magic damage
+			-5% mana cost
+			+20 max mana
+			'''
+	}
+
+	GoogBody: {
+		DisplayName: Goog Body
+		Tooltip: +4% summon damage
+	}
+
+	GoogMask: {
+		DisplayName: Goog Mask
+		Tooltip: +4% summon damage
+	}
+
+	GoogPaws: {
+		DisplayName: Goog Paws
+		Tooltip: +4% summon damage
+	}
+
+	AbyssalEmblem: {
+		Tooltip: Medium improvement to a a few stats
+		DisplayName: Abyssal Emblem
+	}
+
+	AntlerRifle: {
+		Tooltip: ""
+		DisplayName: Antler Rifle
+	}
+
+	RossRifle: {
+		Tooltip: ""
+		DisplayName: Ross Rifle
+	}
+
+	ProtoPistol: {
+		DisplayName: Proto Pistol
+		Tooltip: Maybe this could be used for something
+	}
+
+	ProtoRifle: {
+		DisplayName: Proto Rifle
+		Tooltip: ""
+	}
+
+	ElementalFlail: {
+		DisplayName: Elemental Flail
+		Tooltip: ""
+	}
 }
 
 Tiles: {
@@ -187,4 +247,27 @@ WorldGen: {
 	BlessedWithObscuroniteOreMessage: Mods.SpiritrumReborn.WorldGen.BlessedWithObscuroniteOreMessage
 }
 
-Projectiles.FireScytheSlash.DisplayName: Fire Scythe Slash
+Projectiles: {
+	FireScytheSlash.DisplayName: Fire Scythe Slash
+	ElementalFlailBall.DisplayName: Elemental Flail Ball
+	WhisperingBladeProjectile.DisplayName: Whispering Blade Projectile
+}
+
+NPCs: {
+	EvilGoog.DisplayName: Evil Goog
+
+	NamelessTraveller: {
+		DisplayName: Nameless Traveller
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+}
