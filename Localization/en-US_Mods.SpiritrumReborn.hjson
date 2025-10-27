@@ -233,7 +233,7 @@ Items: {
 
 	ElementalFlail: {
 		DisplayName: Elemental Flail
-		Tooltip: ""
+		Tooltip: "Inflicts Hellfire while spinning and Frostbite when thrown"
 	}
 }
 
@@ -248,9 +248,9 @@ WorldGen: {
 }
 
 Projectiles: {
-	FireScytheSlash.DisplayName: Fire Scythe Slash
-	ElementalFlailBall.DisplayName: Elemental Flail Ball
-	WhisperingBladeProjectile.DisplayName: Whispering Blade Projectile
+	FireScytheSlash.DisplayName: Flaming Scythe Head
+	ElementalFlailBall.DisplayName: Elemental Flail
+	WhisperingBladeProjectile.DisplayName: Whispers
 }
 
 NPCs: {
