@@ -8,10 +8,6 @@ namespace SpiritrumReborn.Content.Items.Accessories
 {
         public class WitchLocket : ModItem
         {
-        public override void SetStaticDefaults()
-        {
-        }
-
         public override void SetDefaults()
         {
             Item.width = 28;

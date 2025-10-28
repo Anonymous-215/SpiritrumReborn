@@ -103,7 +103,6 @@ namespace SpiritrumReborn.Content.Items.Ideology
             recipe.AddIngredient(ItemType<Democracy>(), 1);
             recipe.AddIngredient(ItemType<Environmentalism>(), 1);
             recipe.AddIngredient(ItemType<Fascism>(), 1);
-            recipe.AddIngredient(ItemType<Futurism>(), 1);
             recipe.AddIngredient(ItemType<Liberalism>(), 1);
             recipe.AddIngredient(ItemType<Libertarianism>(), 1);
             recipe.AddIngredient(ItemType<SocialDemocracy>(), 1);

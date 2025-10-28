@@ -1,4 +1,4 @@
-# This file will automatically update with entries for new content after a build and reload.
+﻿# This file will automatically update with entries for new content after a build and reload.
 
 Items: {
 	SpiritBlade: {
@@ -356,6 +356,342 @@ Items: {
 			WARNING: When leaving the world (dimension), it resets.
 			'''
 	}
+
+	AbyssalScope: {
+		DisplayName: Abyssal Scope
+		Tooltip:
+			'''
+			+2% ranged attack speed
+			+12% ranged critical chance
+			+15% ranged damage
+			While holding a ranged weapon that uses bullets or rockets, you can zoom with RMB
+			'''
+	}
+
+	IrisCrossShield: {
+		DisplayName: Iris Cross Shield
+		Tooltip:
+			'''
+			Immunity to almost all debuffs
+			Nearby players on the same team have the paladin shield buff
+			You take 25% of the damage they receive.
+			'''
+	}
+
+	RocketBackpack: {
+		DisplayName: Rocket Backpack
+		Tooltip:
+			'''
+			Increases flight time by 1 second
+			Increases rocket weapons damage by 12%
+			'''
+	}
+
+	RoundedCharger: {
+		DisplayName: Rounded Charger
+		Tooltip:
+			'''
+			+8% bullet using ranged weapons attack speed
+			+20% chance to not consume ammo. Doesn't stack with ammo box.
+			'''
+	}
+
+	VoidPendant: {
+		DisplayName: Void Pendant
+		Tooltip:
+			'''
+			+3 sentry slots
+			+3 summons slots
+			+20% summon damage
+			'''
+	}
+
+	WitheredBloom: {
+		DisplayName: Withered Bloom
+		Tooltip:
+			'''
+			Effect of, Celestial magnet and mana flower
+			-10% mana cost
+			+20% magic damage
+			'''
+	}
+
+	ShimmeringDust: {
+		DisplayName: Shimmering Dust
+		Tooltip:
+			'''
+			+20% movement speed
+			Increased jump speed
+			Makes you glow
+			'''
+	}
+
+	BrokenBlaster: {
+		DisplayName: Broken firearm
+		Tooltip: Seems... really old
+	}
+
+	Anarchy: {
+		DisplayName: Anarchy
+		Tooltip:
+			'''
+			-5 defense
+			-5% endurance
+			Multiple constant variables
+			Variable damage: -20% to +50%
+			Variable movement speed: -10% to +30%
+			Variable critical chance: -15% to +15%
+			Variable attack speed: -30% to +40%
+			Nearby allies: -3 defense, variable damage (-5% to +15%), variable movement speed (-5% to +10%)
+			'''
+	}
+
+	Authoritarianism: {
+		DisplayName: Authoritarianism
+		Tooltip:
+			'''
+			+12 defense
+			+10% endurance
+			Immune to Confused and Silenced
+			+2 max minions
+			Knockback immunity
+			-30% melee, ranged, and magic damage
+			-20% movement speed
+			'''
+	}
+
+	BasicPolitics: {
+		DisplayName: Basic Politics
+		Tooltip:
+			'''
+			+5 defense
+			+15% movement speed
+			+10% endurance
+			+1 life regen
+			+5% critical chance
+			-12% damage
+			+15% mana cost
+			Nearby allies: +3 defense, +2 life regen, +5% damage
+			'''
+	}
+
+	Capitalism: {
+		DisplayName: Capitalism
+		Tooltip:
+			'''
+			+8% damage
+			+4% critical chance
+			-10% movement speed
+			-2 life regen
+			'''
+	}
+
+	Centralism: {
+		DisplayName: Centralism
+		Tooltip:
+			'''
+			+10 defense
+			+10% damage (all classes)
+			+6% critical chance
+			+3 life regen
+			-15% movement speed while moving
+			Nearby allies within 30 tiles: +2 defense, +3% damage, +3% crit, +1 life regen, +3% move speed
+			'''
+	}
+
+	Communism: {
+		DisplayName: Communism
+		Tooltip:
+			'''
+			+1 defense
+			+3% endurance
+			+1 life regen
+			-10% damage
+			Nearby allies: +1 defense, +1 life regen
+			'''
+	}
+
+	Communitarianism: {
+		DisplayName: Communitarianism
+		Tooltip:
+			'''
+			+30 max health
+			+2 life regen
+			-15% damage
+			Nearby allies: +2 defense, +1 life regen
+			'''
+	}
+
+	Conservatism: {
+		DisplayName: Conservatism
+		Tooltip:
+			'''
+			-5 defense
+			-10% endurance
+			+3 life regen
+			+10% damage
+			+5% movement speed
+			+5% critical chance
+			'''
+	}
+
+	Corporatism: {
+		DisplayName: Corporatism
+		Tooltip:
+			'''
+			+8% damage
+			+8% critical chance
+			-1 max minions
+			-1 life regen
+			'''
+	}
+
+	Democracy: {
+		DisplayName: Democracy
+		Tooltip:
+			'''
+			+2 defense
+			-5% movement speed
+			+5% endurance
+			+2 life regen
+			-3% critical chance
+			'''
+	}
+
+	Environmentalism: {
+		DisplayName: Environmentalism
+		Tooltip:
+			'''
+			+10% movement speed
+			Increased jump speed
+			-8% mana cost
+			-10% critical chance
+			+2 life regen (surface)
+			In Underworld: -3 life regen and -20% damage
+			'''
+	}
+
+	Fascism: {
+		DisplayName: Fascism
+		Tooltip:
+			'''
+			-4 defense
+			-5% endurance
+			+10% damage
+			+5% movement speed
+			'''
+	}
+
+	Liberalism: {
+		DisplayName: Liberalism
+		Tooltip:
+			'''
+			+4 defense
+			+10% movement speed
+			-5% damage
+			+5% endurance
+			+1 life regen
+			-4% critical chance
+			Nearby allies: +1 defense, +5% movement speed, +2% damage, +1% crit
+			'''
+	}
+
+	Libertarianism: {
+		DisplayName: Libertarianism
+		Tooltip:
+			'''
+			+12% movement speed
+			+10% melee attack speed
+			Immune to Slow and Confused
+			-6 defense
+			-5% melee damage
+			'''
+	}
+
+	SocialDemocracy: {
+		DisplayName: Social Democracy
+		Tooltip:
+			'''
+			+20 max health
+			-1 life regen
+			+6% damage
+			-2% endurance
+			Nearby allies: +1 life regen, +2% endurance
+			'''
+	}
+
+	Socialism: {
+		DisplayName: Socialism
+		Tooltip:
+			'''
+			-4 defense
+			+10% endurance
+			-2 life regen
+			+10% movement speed
+			-5% damage
+			Nearby allies: +4 defense, +2 life regen, +5% damage
+			'''
+	}
+
+	Technocracy: {
+		DisplayName: Technocracy
+		Tooltip:
+			'''
+			+8% magic damage
+			+8% mana cost
+			+5% mining speed
+			'''
+	}
+
+	Transhumanism: {
+		DisplayName: Transhumanism
+		Tooltip:
+			'''
+			+30 max health
+			+30 max mana
+			+15% damage (all classes)
+			+8% critical chance
+			+10% melee attack speed
+			+10% movement speed
+			Grants night vision, flippers, lava immunity, and lava walking
+			-12% endurance
+			-10 defense
+			-6 life regen
+			-10% mining speed
+			'''
+	}
+
+	UltimateIdeology: {
+		DisplayName: Ultimate Ideology
+		Tooltip:
+			'''
+			Large, stacked boosts:
+			+60 max health
+			+40 max mana
+			+45% generic damage
+			+18% critical chance
+			+20 defense
+			+18% endurance
+			+5 life regen
+			Significant attack speed and movement bonuses
+			Immunity to many debuffs and +1 sentry slot
+			Also grants +15% summon damage and extra turret slot
+			'''
+	}
+
+	WorstIdeology: {
+		DisplayName: Worst Ideology
+		Tooltip:
+			'''
+			Why would you even make that?
+			- large penalties to most stats
+			- large drop in damage
+			- large drops to defense and life
+			- big reductions to crit and attack speed
+			- slower movement and mining speed
+			Applies negative effects to nearby allies and may confuse you
+			'''
+	}
 }
 
 Tiles: {
@@ -394,5 +730,37 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
+	}
+}
+
+Buffs: {
+	ElementalBlades: {
+		DisplayName: Elemental Blades
+		Description: Elemental blades will fight for you
+	}
+
+	NamelessParasiteBuff: {
+		DisplayName: Nameless Parasite Buff
+		Description: Grahhgul... Gleg... Glod... BLOOD!
+	}
+
+	PascaliteSunflowerBuff: {
+		DisplayName: Pascalite Sunflower Buff
+		Description: Sunflowers orbit around you
+	}
+
+	PenumbralSurge: {
+		DisplayName: Penumbral Surge
+		Description: +12% magic damage
+	}
+
+	ShimmeredDust: {
+		DisplayName: Shimmered Dust
+		Description: Increased mobility and glow effect
+	}
+
+	SnowyOwlStaffBuff: {
+		DisplayName: Snowy Owl Staff Buff
+		Description: Hooo... Hooo... Who asked for a good description?
 	}
 }

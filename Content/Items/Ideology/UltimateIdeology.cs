@@ -4,10 +4,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using SpiritrumReborn.Content.Items.Ideology;
-using SpiritrumReborn.Systems;
 using static Terraria.ModLoader.ModContent;
 
-namespace Spiritrum.Content.Items.Ideology
+namespace SpiritrumReborn.Content.Items.Ideology
 {
     public class UltimateIdeology : ModItem
     {
@@ -27,12 +26,10 @@ namespace Spiritrum.Content.Items.Ideology
             player.GetCritChance(DamageClass.Generic) += 8;
             
             player.discountAvailable = true; 
-            player.GetModPlayer<IdeologySlotPlayer>().inflictMidas = true; 
             
             player.moveSpeed += 0.10f;
             player.jumpSpeedBoost += 2f;
             player.manaCost -= 0.08f;
-            player.GetModPlayer<IdeologySlotPlayer>().natureRegen = true;
             
             int tileX = (int)(player.Center.X / 16f);
             int tileY = (int)((player.position.Y + player.height + 8f) / 16f);
