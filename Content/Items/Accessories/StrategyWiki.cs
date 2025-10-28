@@ -20,7 +20,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
 			player.maxTurrets += 3;
-			player.GetDamage(DamageClass.Summon) += 0.05f; 
+			player.GetDamage(DamageClass.Summon) += 0.08f; 
 			player.GetAttackSpeed(DamageClass.Summon) += 0.15f; 
 		}
 
@@ -31,7 +31,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
 			recipe.AddIngredient(ItemID.SquireShield);
 			recipe.AddIngredient(ItemID.MonkBelt);
 			recipe.AddIngredient(ItemID.HuntressBuckler);
-			recipe.AddIngredient(ModContent.ItemType<StrategyWiki>(), 1);
+			recipe.AddIngredient(ModContent.ItemType<CommanderManual>(), 1);
 			recipe.AddTile(TileID.TinkerersWorkbench);
 			recipe.Register();
 		}

@@ -5,6 +5,7 @@ using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Microsoft.Xna.Framework;
 using Terraria.Audio;
+using SpiritrumReborn.Content.Items.Materials;
 
 namespace SpiritrumReborn.Content.Entities.Hostile
 {
@@ -44,7 +45,9 @@ namespace SpiritrumReborn.Content.Entities.Hostile
         public override void ModifyNPCLoot(NPCLoot npcLoot)
         {
                             // (ID.Item, drop chance=1/x, min amount, max amount)
-            npcLoot.Add(ItemDropRule.Common(ItemID.CopperCoin, 2, 5, 20)); 
+            npcLoot.Add(ItemDropRule.Common(ItemID.CopperCoin, 2, 5, 20));
+            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Googling>(), 1, 1, 2));
+
         }
 
         public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)

@@ -1,19 +1,16 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.DataStructures;
-using Microsoft.Xna.Framework;
-using System.Collections.Generic;
-using static Terraria.ModLoader.ModContent;
+using SpiritrumReborn.Content.Items.Materials;
 
 namespace SpiritrumReborn.Content.Items.Weapons
 {
     public class GoogPaw : ModItem
     {
 
-        public override void SetDefaults()
-        {
-            Item.damage = 14;
+		public override void SetDefaults()
+		{
+			Item.damage = 14;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 5;
 			Item.height = 5;
@@ -26,6 +23,14 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.rare = ItemRarityID.Green;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
+		}
+		
+		public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ModContent.ItemType<Googling>(), 4)
+                .AddTile(TileID.WorkBenches)
+                .Register();
         }
     }
 }

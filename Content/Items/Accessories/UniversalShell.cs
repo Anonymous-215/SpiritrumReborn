@@ -13,7 +13,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
             Item.width = 28;
             Item.height = 28;
             Item.accessory = true;
-            Item.rare = ItemRarityID.Lime;
+            Item.rare = ItemRarityID.Red;
             Item.value = Item.sellPrice(gold: 50);
         }
 
@@ -21,11 +21,11 @@ namespace SpiritrumReborn.Content.Items.Accessories
         {
 
             player.statLifeMax2 += 60; 
-            player.statManaMax2 += 80; 
-            player.GetDamage(DamageClass.Generic) += 0.16f; 
+            player.statManaMax2 += 60; 
+            player.GetDamage(DamageClass.Generic) += 0.18f; 
             player.GetAttackSpeed(DamageClass.Melee) += 0.18f; 
             player.GetCritChance(DamageClass.Generic) += 6; 
-            player.lifeRegen += 2; 
+            player.lifeRegen += 3; 
             player.statDefense += 8; 
         }
 

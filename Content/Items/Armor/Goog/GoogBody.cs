@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using SpiritrumReborn.Content.Items.Materials;
 
 namespace SpiritrumReborn.Content.Items.Armor.Goog
 {
@@ -18,6 +19,14 @@ namespace SpiritrumReborn.Content.Items.Armor.Goog
         public override void UpdateEquip(Player player)
         {
             player.GetDamage(DamageClass.Summon) += 0.04f;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ModContent.ItemType<Googling>(), 10)
+                .AddTile(TileID.WorkBenches)
+                .Register();
         }
     }
 }

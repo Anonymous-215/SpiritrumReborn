@@ -19,9 +19,9 @@ namespace SpiritrumReborn.Content.Items.Accessories
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.moveSpeed += 0.12f; 
-            player.jumpSpeedBoost += 1.0f; 
-            player.accRunSpeed += 0.10f; 
+            player.moveSpeed += 0.85f; 
+            player.jumpSpeedBoost += 0.6f; 
+            player.accRunSpeed += 0.15f; 
             player.waterWalk = true;
             player.lavaImmune = true;
             player.iceSkate = true;

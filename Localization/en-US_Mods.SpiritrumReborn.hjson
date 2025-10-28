@@ -238,47 +238,123 @@ Items: {
 
 	BurningFleshChunk: {
 		DisplayName: Burning Flesh Chunk
-		Tooltip: ""
+		Tooltip: +3 life regen, +2 mana regen and +8% damage
 	}
 
 	RealmWalkerBoots: {
 		DisplayName: Realm Walker Boots
-		Tooltip: ""
+		Tooltip:
+			'''
+			+85% movement speed
+			+15% acceleration
+			Increased jump speed
+			Water and lava walking
+			Ice skate effect
+			Doesn't grants flight
+			'''
 	}
 
 	StrategyWiki: {
 		DisplayName: Strategy Wiki
-		Tooltip: ""
+		Tooltip:
+			'''
+			+3 max sentries
+			+8% summon damage
+			+15% summon weapon speed (this includes whips)
+			'''
 	}
 
 	SummonerOccultBook: {
 		DisplayName: Summoner Occult Book
-		Tooltip: ""
+		Tooltip: +2 summon slots
 	}
 
 	UniversalShell: {
 		DisplayName: Universal Shell
-		Tooltip: ""
+		Tooltip:
+			'''
+			+60 Max hp and mana
+			+18% damage and melee speed
+			+6% crit chance
+			+3 life regen
+			+8 defense
+			'''
 	}
 
 	UniverseWalkerTreads: {
 		DisplayName: Universe Walker Treads
-		Tooltip: ""
+		Tooltip:
+			'''
+			+125% movement speed 
+			+25% acceleration
+			Massively increased jump speed
+			Water and lava walking
+			Ice skate effect
+			Doesn't grants flight
+			'''
 	}
 
 	WarmShot: {
 		DisplayName: Warm Shot
-		Tooltip: ""
+		Tooltip: Grants the warmth buff permanently while equipped
 	}
 
 	Egg: {
 		DisplayName: Egg
-		Tooltip: ""
+		Tooltip: E G G
 	}
 
 	EggRepeater: {
 		DisplayName: Egg Repeater
+		Tooltip: Shoots Eggs
+	}
+
+	Googling: {
+		DisplayName: Googling
+		Tooltip: Goog...
+	}
+
+	VoidEssence: {
+		DisplayName: Void Essence
+		Tooltip: A mysterious material from another dimension
+	}
+
+	AbyssalSniper: {
+		DisplayName: Abyssal Sniper
+		Tooltip: Powered by the secrets of the shadows
+	}
+
+	ChillMaker: {
+		DisplayName: Chill Maker
+		Tooltip:
+			'''
+			The empire is pretty chill.
+			Maybe you should join it or something.
+			'''
+	}
+
+	CopiumBlaster: {
+		DisplayName: Copium Blaster
 		Tooltip: ""
+	}
+
+	SunlightPointer: {
+		DisplayName: Sunlight Pointer
+		Tooltip: Literally eats your mana
+	}
+
+	TreebarkStaff: {
+		DisplayName: Treebark Staff
+		Tooltip: ""
+	}
+
+	Spectralite: {
+		DisplayName: Spectralite
+		Tooltip:
+			'''
+			Can be consumed to increase your base max mana by 100, ignoring the cap of 500.
+			WARNING: When leaving the world (dimension), it resets.
+			'''
 	}
 }
 
@@ -297,6 +373,9 @@ Projectiles: {
 	ElementalFlailBall.DisplayName: Elemental Flail
 	WhisperingBladeProjectile.DisplayName: Whispers
 	Egged.DisplayName: Egged
+	AbyssalBallProjectile.DisplayName: Abyssal shot
+	Sharpleaf.DisplayName: Sharpleaf
+	SunBeam.DisplayName: Deadly lazer
 }
 
 NPCs: {
