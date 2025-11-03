@@ -1,4 +1,4 @@
-﻿# This file will automatically update with entries for new content after a build and reload.
+# This file will automatically update with entries for new content after a build and reload.
 
 Items: {
 	SpiritBlade: {
@@ -665,7 +665,7 @@ Items: {
 		DisplayName: Ultimate Ideology
 		Tooltip:
 			'''
-			Large, stacked boosts:
+			Say goodbye to those pesky debuffs
 			+60 max health
 			+40 max mana
 			+45% generic damage
@@ -692,6 +692,141 @@ Items: {
 			Applies negative effects to nearby allies and may confuse you
 			'''
 	}
+
+	CopiumBar: {
+		DisplayName: Copium Bar
+		Tooltip: ""
+	}
+
+	CopiumOre: {
+		DisplayName: Copium Ore
+		Tooltip: ""
+	}
+
+	PascaliteBar: {
+		DisplayName: Pascalite Bar
+		Tooltip: ""
+	}
+
+	PascaliteOre: {
+		DisplayName: Pascalite Ore
+		Tooltip: Grows inside the jungle as a pre stage of Chlorophyte
+	}
+
+	Penumbrium: {
+		DisplayName: Penumbrium
+		Tooltip: Somehow has physical and magical properties
+	}
+
+	CopiumChestplate: {
+		DisplayName: Copium Chestplate
+		Tooltip: ""
+	}
+
+	CopiumLeggings: {
+		DisplayName: Copium Leggings
+		Tooltip: ""
+	}
+
+	CopiumMask: {
+		DisplayName: Copium Mask
+		Tooltip: ""
+	}
+
+	PascaliteChestplate: {
+		DisplayName: Pascalite Chestplate
+		Tooltip: ""
+	}
+
+	PascaliteLeggings: {
+		DisplayName: Pascalite Leggings
+		Tooltip: ""
+	}
+
+	PascaliteVisor: {
+		DisplayName: Pascalite Visor
+		Tooltip: ""
+	}
+
+	HalloStick: {
+		DisplayName: Hallo Stick
+		Tooltip: ""
+	}
+
+	BoneCaster: {
+		DisplayName: Bone Caster
+		Tooltip: ""
+	}
+
+	BreezeBreath: {
+		DisplayName: Breeze Breath
+		Tooltip: ""
+	}
+
+	CopiumTrident: {
+		DisplayName: Copium Trident
+		Tooltip: ""
+	}
+
+	ElectromanBlade: {
+		DisplayName: Electroman Blade
+		Tooltip: ""
+	}
+
+	IrisBlossomStaff: {
+		DisplayName: Iris Blossom Staff
+		Tooltip: ""
+	}
+
+	LibrarianSpellbook: {
+		DisplayName: Librarian Spellbook
+		Tooltip: ""
+	}
+
+	NinjaTextbook: {
+		DisplayName: Ninja Textbook
+		Tooltip: ""
+	}
+
+	NutCracker: {
+		DisplayName: Nut Cracker
+		Tooltip: ""
+	}
+
+	PascaliteShellshocker: {
+		DisplayName: Pascalite Shellshocker
+		Tooltip: ""
+	}
+
+	NocturnalLance: {
+		DisplayName: Nocturnal Lance
+		Tooltip: ""
+	}
+
+	PenumbralRailgun: {
+		DisplayName: Penumbral Railgun
+		Tooltip: ""
+	}
+
+	PenumbralSpreader: {
+		DisplayName: Penumbral Spreader
+		Tooltip: ""
+	}
+
+	PocketFairies: {
+		DisplayName: Pocket Fairies
+		Tooltip: ""
+	}
+
+	ScorpionScorcher: {
+		DisplayName: Scorpion Scorcher
+		Tooltip: ""
+	}
+
+	SkywareBlaster: {
+		DisplayName: Skyware Blaster
+		Tooltip: ""
+	}
 }
 
 Tiles: {
@@ -711,7 +846,21 @@ Projectiles: {
 	Egged.DisplayName: Egged
 	AbyssalBallProjectile.DisplayName: Abyssal shot
 	Sharpleaf.DisplayName: Sharpleaf
-	SunBeam.DisplayName: Deadly lazer
+	SunBeam.DisplayName: The Sun's Deadly lazer
+	HalloBall.DisplayName: Hallo Ball
+	BreezeBreathProjectile.DisplayName: Breeze Breath Projectile
+	CopiumTrident.DisplayName: Copium Trident
+	CoralShot.DisplayName: Coral Shot
+	CoralShotShrapnel.DisplayName: Coral Shot Shrapnel
+	EnergySphere.DisplayName: Energy Sphere
+	IrisBlossomStaffProjectile.DisplayName: Iris Blossom Staff Projectile
+	MagicWordProjectile.DisplayName: Magic Word Projectile
+	NocturnalLance.DisplayName: Nocturnal Lance
+	NutShrapnel.DisplayName: Nut Shrapnel
+	PocketFairy.DisplayName: Pocket Fairy
+	ScorpionBeam.DisplayName: Scorpion Beam
+	SlimyKunai.DisplayName: Slimy Kunai
+	SunLaser.DisplayName: Sun Laser
 }
 
 NPCs: {

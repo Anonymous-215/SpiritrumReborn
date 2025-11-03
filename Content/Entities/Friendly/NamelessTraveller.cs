@@ -51,6 +51,10 @@ namespace SpiritrumReborn.Content.Entities.Friendly
                 new Condition("Conditions.DownedPlantera", () => NPC.downedPlantBoss)
             );
 
+            shop.Add<BrokenBlaster>(
+                new Condition("Conditions.DownedPlantera", () => NPC.downedPlantBoss)
+            );
+
             shop.Register();
         }
 
