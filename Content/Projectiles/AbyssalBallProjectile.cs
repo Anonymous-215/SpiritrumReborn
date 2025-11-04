@@ -25,12 +25,14 @@ namespace SpiritrumReborn.Content.Projectiles
 
         public override void AI()
         {
-            if (Main.rand.NextBool(1)) //just the dust for the trajectory
+            if (Main.rand.NextBool(1)) 
             {
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Shadowflame, 0f, 0f, 150, default, 1.2f);
             }
         }
     }
 }
+
+
 
 

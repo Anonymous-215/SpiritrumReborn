@@ -24,8 +24,8 @@ namespace SpiritrumReborn.Content.Projectiles
 
         public override void AI()
         {
-            Lighting.AddLight(Projectile.Center, 1.2f, 1.1f, 0.5f); //Makes light
-            for (int i = 0; i < 4; i++) //Dust effect
+            Lighting.AddLight(Projectile.Center, 1.2f, 1.1f, 0.5f); 
+            for (int i = 0; i < 4; i++) 
             {
                 int dust = Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Torch, Projectile.velocity.X * 0.01f, Projectile.velocity.Y * 0.01f, 10, default, 0.3f);
                 Main.dust[dust].noGravity = true;
@@ -35,9 +35,11 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
-			target.AddBuff(BuffID.OnFire, 40); //Makes the projectile inflict on fire for 40 ticks
+			target.AddBuff(BuffID.OnFire, 40); 
 		}
     }
 }
+
+
 
 

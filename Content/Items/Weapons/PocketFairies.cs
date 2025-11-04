@@ -35,10 +35,10 @@ namespace SpiritrumReborn.Content.Items.Weapons
 
 		public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
 		{
-			int numProjectiles = 2; //Throws a total of 6 fairies per use
+			int numProjectiles = 2; 
 			for (int i = 0; i < numProjectiles; i++)
 			{
-				Vector2 perturbedVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(10)); //simple spread
+				Vector2 perturbedVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(10)); 
 				Projectile.NewProjectile(source, position, perturbedVelocity, type, damage, knockback, player.whoAmI);
 			}
 			return false;
@@ -52,5 +52,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
         }
 	}
 }
+
+
 
 

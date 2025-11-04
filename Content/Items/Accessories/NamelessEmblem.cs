@@ -17,7 +17,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
             Item.rare = ItemRarityID.Purple;
         }
 
-        public override void UpdateAccessory(Player player, bool hideVisual) //Will stay with the minor improvement to multiple stats
+        public override void UpdateAccessory(Player player, bool hideVisual) 
         {
             player.GetDamage(DamageClass.Generic) += 0.05f; 
             player.GetCritChance(DamageClass.Generic) += 5;  
@@ -30,4 +30,6 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+
 

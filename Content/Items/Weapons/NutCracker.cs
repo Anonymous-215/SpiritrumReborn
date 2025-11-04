@@ -26,18 +26,20 @@ namespace SpiritrumReborn.Content.Items.Weapons
             Item.scale = 1.8f; 
         }
 
-        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone) //On a true melee hit
+        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone) 
         {
-            int numShrapnel = Main.rand.Next(4, 7); //Shoots out 4 to 7 shrapnels
+            int numShrapnel = Main.rand.Next(4, 7); 
             for (int i = 0; i < numShrapnel; i++)
             {
                 float speed = Main.rand.NextFloat(4f, 6f);
-                float angle = MathHelper.ToRadians(Main.rand.Next(-15, 18)); //in a bit spread
+                float angle = MathHelper.ToRadians(Main.rand.Next(-15, 18)); 
                 Vector2 velocity = Vector2.UnitX.RotatedBy(angle) * speed * player.direction;
-                Projectile.NewProjectile(player.GetSource_ItemUse(Item), player.Center, velocity, ModContent.ProjectileType<NutShrapnel>(), Item.damage / 2, 2f, player.whoAmI); //Deals 50% damage
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), player.Center, velocity, ModContent.ProjectileType<NutShrapnel>(), Item.damage / 2, 2f, player.whoAmI); 
             }
         }
     }
 }
+
+
 
 

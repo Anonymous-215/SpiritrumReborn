@@ -19,13 +19,13 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void AI()
         {
-            if (Projectile.velocity != Vector2.Zero)//points towards where they are going
+            if (Projectile.velocity != Vector2.Zero)
             {
                 Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             }
         }
 
-        public override void OnKill(int timeLeft) //Spawn shrapnels either when the projectile is gone or on a hit
+        public override void OnKill(int timeLeft) 
         {
             SpawnShrapnel();
         }
@@ -37,7 +37,7 @@ namespace SpiritrumReborn.Content.Projectiles
 
         private void SpawnShrapnel()
         {
-            int count = Main.rand.Next(2, 4); //spawns 2-4 shrapnel in random directions
+            int count = Main.rand.Next(2, 4); 
             for (int i = 0; i < count; i++)
             {
                 Vector2 vel = Main.rand.NextVector2Circular(3f, 3f);
@@ -46,5 +46,7 @@ namespace SpiritrumReborn.Content.Projectiles
         }
     }
 }
+
+
 
 

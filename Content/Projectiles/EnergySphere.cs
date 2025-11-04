@@ -26,11 +26,13 @@ namespace SpiritrumReborn.Content.Projectiles
 		public override void AI()
 		{
 			Projectile.rotation += 0.8f * (float)Math.PI; 
-			Projectile.velocity *= 1.01f; //rapid rotation
+			Projectile.velocity *= 1.01f; 
 		}
 
 
 	}
 }
+
+
 
 

@@ -1,5 +1,4 @@
-//Needs resprite
-
+﻿
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
@@ -37,14 +36,14 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 
-    public class AbyssalScopePlayer : ModPlayer //This is for the scope effect to work
+    public class AbyssalScopePlayer : ModPlayer 
     {
         public bool abyssalScope;
-        public override void ResetEffects() //This is to make sure that the effect is not active when not equipped
+        public override void ResetEffects() 
         {
             abyssalScope = false;
         }
-        public override void PostUpdate() //Detects if weapons uses bullets or rockets and damage type is ranged
+        public override void PostUpdate() 
         {
             if (abyssalScope && Player.HeldItem.DamageType == DamageClass.Ranged && Player.HeldItem.useAmmo == AmmoID.Bullet || Player.HeldItem.useAmmo == AmmoID.Rocket)
             {
@@ -56,3 +55,5 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+

@@ -17,16 +17,16 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
-        {                       //(int)(...) is required for it to work, since float cannot turn to int
-            player.wingTimeMax = (int)(player.wingTimeMax + 60);  //increases flight time by 60 ticks (1 second)
+        {                       
+            player.wingTimeMax = (int)(player.wingTimeMax + 60);  
 
             Item heldItem = player.HeldItem;
-            if (heldItem != null && heldItem.damage > 0 && heldItem.DamageType == DamageClass.Ranged) //detects if weapon is ranged
-            { //Detects if uses rockets if it is ranged
+            if (heldItem != null && heldItem.damage > 0 && heldItem.DamageType == DamageClass.Ranged) 
+            { 
                 int ammoType = heldItem.useAmmo;
                 if (ammoType == AmmoID.Rocket)
                 {
-                    player.GetDamage(DamageClass.Ranged) += 0.12f; //if true, +12% ranged damage
+                    player.GetDamage(DamageClass.Ranged) += 0.12f; 
                 }
             }
         }
@@ -43,5 +43,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+
 
 

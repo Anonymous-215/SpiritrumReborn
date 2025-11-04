@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using System.Threading;
 using Terraria;
@@ -16,10 +16,10 @@ namespace SpiritrumReborn.Content.Tiles
 		public override void SetStaticDefaults() {
 			TileID.Sets.Ore[Type] = true;
 			TileID.Sets.FriendlyFairyCanLureTo[Type] = true;
-			Main.tileSpelunker[Type] = true; // The tile will be affected by spelunker highlighting
+			Main.tileSpelunker[Type] = true; 
 			Main.tileOreFinderPriority[Type] = 410; // Metal Detector value, see https://terraria.wiki.gg/wiki/Metal_Detector
-			Main.tileShine2[Type] = true; // Modifies the draw color slightly.
-			Main.tileShine[Type] = 975; // How often tiny dust appear off this tile. Larger is less frequently
+			Main.tileShine2[Type] = true; 
+			Main.tileShine[Type] = 975; 
 			Main.tileMergeDirt[Type] = true;
 			Main.tileSolid[Type] = true;
 			Main.tileBlockLight[Type] = true;
@@ -76,3 +76,4 @@ namespace SpiritrumReborn.Content.Tiles
 		}
 	}
 }
+

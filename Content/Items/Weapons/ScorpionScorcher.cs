@@ -1,5 +1,4 @@
-// This weapon needs a total rework
-
+﻿
 
 using Terraria;
 using Terraria.ID;
@@ -36,3 +35,5 @@ namespace SpiritrumReborn.Content.Items.Weapons
         }
     }
 }
+
+

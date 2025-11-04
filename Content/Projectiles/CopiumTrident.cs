@@ -27,8 +27,10 @@ public class CopiumTrident : ModProjectile
             AIType = ProjectileID.Spear;
         }
 
-        protected virtual float HoldoutRangeMin => 4f; //this is the range of the spear
+        protected virtual float HoldoutRangeMin => 4f; 
         protected virtual float HoldoutRangeMax => 24f;
     }
 }
+
+
 

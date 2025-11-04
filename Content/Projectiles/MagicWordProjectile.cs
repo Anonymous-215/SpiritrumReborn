@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
@@ -9,7 +9,7 @@ namespace SpiritrumReborn.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            Main.projFrames[Projectile.type] = 1; //I want this projectile sprite sheet to have all 26 letters and randomized frames
+            Main.projFrames[Projectile.type] = 1; 
         }
 
         public override void SetDefaults()
@@ -35,3 +35,5 @@ namespace SpiritrumReborn.Content.Projectiles
         }
     }
 }
+
+

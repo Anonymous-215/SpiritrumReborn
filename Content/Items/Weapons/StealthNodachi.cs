@@ -11,7 +11,6 @@ namespace SpiritrumReborn.Content.Items.Weapons
     {
         public override void SetDefaults()
         {
-            // This weapon will need a resprite
             Item.damage = 23;
             Item.crit = 15;
 			Item.DamageType = DamageClass.Melee;
@@ -29,6 +28,8 @@ namespace SpiritrumReborn.Content.Items.Weapons
         }
     }
 }
+
+
 
 
 

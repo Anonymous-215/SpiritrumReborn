@@ -8,18 +8,17 @@ using static Terraria.ModLoader.ModContent;
 
 namespace SpiritrumReborn.Content.Items.Weapons
 {
-	public class FrenziedAncientClaymore : ModItem //Previously Ancient Katana
+	public class FrenziedAncientClaymore : ModItem 
 	{
 
 		public override void SetDefaults()
 		{
-			// Has been reworked to be a very slow, but really hard hitting and big weapon
 			Item.damage = 80;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 48;
 			Item.height = 48;
 			Item.useTime = 10;
-			Item.useAnimation = 22; //gains speed
+			Item.useAnimation = 22; 
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 8;
 			Item.scale = 1.8f;
@@ -34,10 +33,11 @@ namespace SpiritrumReborn.Content.Items.Weapons
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemType<AncientClaymore>(), 1);
-			// will have a special item here
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
 	}
 }
+
+
 

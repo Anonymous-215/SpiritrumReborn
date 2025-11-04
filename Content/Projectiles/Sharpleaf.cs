@@ -14,7 +14,7 @@ namespace SpiritrumReborn.Content.Projectiles
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Magic;
 			Projectile.penetrate = 1;
-			Projectile.timeLeft = 120; //Short range
+			Projectile.timeLeft = 120; 
 			Projectile.ignoreWater = true;
 			Projectile.tileCollide = true;
 			Projectile.aiStyle = 1;
@@ -22,5 +22,7 @@ namespace SpiritrumReborn.Content.Projectiles
 		}
 	}
 }
+
+
 
 

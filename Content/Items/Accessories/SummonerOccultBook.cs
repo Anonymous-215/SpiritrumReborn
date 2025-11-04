@@ -23,7 +23,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
 
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe(); //Should probably change it at some point
+            Recipe recipe = CreateRecipe(); 
             recipe.AddIngredient(ItemID.Ectoplasm, 6);
             recipe.AddIngredient(ItemID.Book, 1);
             recipe.AddIngredient(ItemID.SoulofNight, 5);
@@ -32,4 +32,6 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+
 

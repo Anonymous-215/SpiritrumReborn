@@ -755,12 +755,12 @@ Items: {
 
 	BoneCaster: {
 		DisplayName: Bone Caster
-		Tooltip: ""
+		Tooltip: Shoots out a short range spread of 8 bones
 	}
 
 	BreezeBreath: {
 		DisplayName: Breeze Breath
-		Tooltip: ""
+		Tooltip: Consumes gel
 	}
 
 	CopiumTrident: {
@@ -780,42 +780,42 @@ Items: {
 
 	LibrarianSpellbook: {
 		DisplayName: Librarian Spellbook
-		Tooltip: ""
+		Tooltip: A B C D... whatever
 	}
 
 	NinjaTextbook: {
 		DisplayName: Ninja Textbook
-		Tooltip: ""
+		Tooltip: Casts bouncy kunais
 	}
 
 	NutCracker: {
 		DisplayName: Nut Cracker
-		Tooltip: ""
+		Tooltip: True melee hits shoots out nut shrapnels
 	}
 
 	PascaliteShellshocker: {
 		DisplayName: Pascalite Shellshocker
-		Tooltip: ""
+		Tooltip: Shoots coral that explodes into shrapnels
 	}
 
 	NocturnalLance: {
 		DisplayName: Nocturnal Lance
-		Tooltip: ""
+		Tooltip: Replaces all arrows with a hitscan arrow
 	}
 
 	PenumbralRailgun: {
 		DisplayName: Penumbral Railgun
-		Tooltip: ""
+		Tooltip: Where are the projectiles?
 	}
 
 	PenumbralSpreader: {
 		DisplayName: Penumbral Spreader
-		Tooltip: ""
+		Tooltip: Shoots out a spread of magical penumbral dust
 	}
 
 	PocketFairies: {
 		DisplayName: Pocket Fairies
-		Tooltip: ""
+		Tooltip: Throws fairies... that is it
 	}
 
 	ScorpionScorcher: {
@@ -825,6 +825,81 @@ Items: {
 
 	SkywareBlaster: {
 		DisplayName: Skyware Blaster
+		Tooltip: ""
+	}
+
+	PenumbralLeggings: {
+		Tooltip: ""
+		DisplayName: Penumbral Leggings
+	}
+
+	PenumbralHelm: {
+		Tooltip: ""
+		DisplayName: Penumbral Helm
+	}
+
+	PenumbralChestplate: {
+		Tooltip: ""
+		DisplayName: Penumbral Chestplate
+	}
+
+	GalacticGoogPaws: {
+		Tooltip: ""
+		DisplayName: Galactic Goog Paws
+	}
+
+	GalacticGoogMask: {
+		Tooltip: ""
+		DisplayName: Galactic Goog Mask
+	}
+
+	GalacticGoogBody: {
+		Tooltip: ""
+		DisplayName: Galactic Goog Body
+	}
+
+	KrakenBolt: {
+		Tooltip: ""
+		DisplayName: Kraken Bolt
+	}
+
+	Bolt: {
+		Tooltip: ""
+		DisplayName: Bolt
+	}
+
+	AnthraxGasGrenade: {
+		Tooltip: Can be thrown
+		DisplayName: Anthrax Gas Grenade
+	}
+
+	VoidHunterHeadgear: {
+		DisplayName: Void Hunter Headgear
+		Tooltip: ""
+	}
+
+	VoidHunterHelmet: {
+		DisplayName: Void Hunter Helmet
+		Tooltip: ""
+	}
+
+	VoidHunterLeggings: {
+		DisplayName: Void Hunter Leggings
+		Tooltip: ""
+	}
+
+	VoidHunterMask: {
+		DisplayName: Void Hunter Mask
+		Tooltip: ""
+	}
+
+	VoidHunterPlate: {
+		DisplayName: Void Hunter Plate
+		Tooltip: ""
+	}
+
+	VoidHunterVisor: {
+		DisplayName: Void Hunter Visor
 		Tooltip: ""
 	}
 }
@@ -848,19 +923,26 @@ Projectiles: {
 	Sharpleaf.DisplayName: Sharpleaf
 	SunBeam.DisplayName: The Sun's Deadly lazer
 	HalloBall.DisplayName: Hallo Ball
-	BreezeBreathProjectile.DisplayName: Breeze Breath Projectile
+	BreezeBreathProjectile.DisplayName: Breeze
 	CopiumTrident.DisplayName: Copium Trident
 	CoralShot.DisplayName: Coral Shot
-	CoralShotShrapnel.DisplayName: Coral Shot Shrapnel
-	EnergySphere.DisplayName: Energy Sphere
-	IrisBlossomStaffProjectile.DisplayName: Iris Blossom Staff Projectile
-	MagicWordProjectile.DisplayName: Magic Word Projectile
-	NocturnalLance.DisplayName: Nocturnal Lance
-	NutShrapnel.DisplayName: Nut Shrapnel
+	CoralShotShrapnel.DisplayName: Coral Shrapnel
+	EnergySphere.DisplayName: Energy scythe
+	IrisBlossomStaffProjectile.DisplayName: Iris Blossom
+	MagicWordProjectile.DisplayName: Magic letter
+	NocturnalLance.DisplayName: Nocturnal arrow
+	NutShrapnel.DisplayName: Nuts
 	PocketFairy.DisplayName: Pocket Fairy
 	ScorpionBeam.DisplayName: Scorpion Beam
 	SlimyKunai.DisplayName: Slimy Kunai
-	SunLaser.DisplayName: Sun Laser
+	SunLaser.DisplayName: Heat Laser
+	AnthraxProjectile.DisplayName: Anthrax Gas Grenade
+	PalladiumShockwave.DisplayName: Palladium Shockwave
+	MythrilRicochet.DisplayName: Mythril Ricochet
+	OrichalcumFlowerPetal.DisplayName: Orichalcum Flower Petal
+	AdamantiteEnergyOrb.DisplayName: Adamantite Energy Orb
+	TitaniumMass.DisplayName: Titanium Mass
+	TitaniumArrowProj.DisplayName: Titanium Arrow Proj
 }
 
 NPCs: {
@@ -912,4 +994,71 @@ Buffs: {
 		DisplayName: Snowy Owl Staff Buff
 		Description: Hooo... Hooo... Who asked for a good description?
 	}
+
+	MythrilCurse: {
+		DisplayName: Mythril Curse
+		Description: -20 defense and -10% damage reduction
+	}
+
+	VoidFlames: {
+		Description: 100 damage per second
+		DisplayName: Void Flames
+	}
+}
+
+Tooltips: {
+	CobaltSword: {
+		Line1: Hits have 20% chance to increase melee speed by 33% for 5 seconds.
+		Line2: Every fifth hit releases a lightning sphrere.
+	}
+
+	CobaltNaginata.Line1: Hits are now able to strike multiple times.
+	CobaltRepeater.Line1: Fires in rapid three-round bursts.
+	PalladiumSword.Line1: Melee hits restore 2 hp.
+	PalladiumPike.Line2: Hits cause shockwaves.
+	PalladiumRepeater.Line1: Dealing damage from up close heals you for a portion of the damage dealt.
+	MythrilSword.Line1: Hits release ricocheting dust.
+	MythrilHalberd.Line1: Crit chance scales with enemy defense.
+	MythrilRepeater.Line1: Arrows inflict Mythril Curse, giving -20 defense and -10% damage reduction.
+	OrichalcumSword.Line1: True melee hits do 3 weaker hits
+
+	OrichalcumHalberd: {
+		Line1: Each hit builds oricalchum curse (max 10).
+		Line2: Orichalcum curse increases damage taken by 5% per stack from orichalcum weapons.
+		Line3: At max stacks the next hit crits and adds 3 extra hits.
+	}
+
+	OrichalcumRepeater.Line1: Fires 2 arrows
+
+	AdamantiteSword: {
+		Line1: Swinging summons orbiting orbs.
+		Line2: Orbs seek out enemies when released.
+	}
+
+	AdamantiteGlaive.Line1: Strikes slow enemies (up to 40%) and applies a random debuff.
+	AdamantiteRepeater.Line1: Arrows fall faster but deal 50% more damage to airborne foes.
+
+	TitaniumSword: {
+		Line1: Marks foes with titanium mass, causing them to shed seeking shards.
+		Line2: Marked enemies deal 20% less contact damage.
+	}
+
+	TitaniumTrident: {
+		Line1: Pierces rapidly with reduced immunity frames.
+		Line2: Ends titanium mass with a burst.
+	}
+
+	TitaniumRepeater.Line1: Replaces arrows with piercing bolts that deal extra damage the faster they go.
+}
+
+SetBonus: {
+	Cobalt: Hitting enemies shoots out a lightning bolt (0.5s cooldown).
+	Adamantite: Nearby foes grant +2 defense and +5% knockback each (up to 8).
+	Mythril:
+		'''
+		Gain +10% damage per active debuff.
+		Taking damage grants 15% damage reduction for 5 seconds
+		Further hits while it is active add half as much.
+		After not getting hit for 5 seconds, gain 3 seconds of invulnerability.
+		'''
 }

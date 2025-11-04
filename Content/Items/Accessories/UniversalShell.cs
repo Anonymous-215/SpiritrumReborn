@@ -1,5 +1,4 @@
-﻿//IMPORANT: Resprite needed
-
+﻿
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -17,7 +16,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
             Item.value = Item.sellPrice(gold: 50);
         }
 
-        public override void UpdateAccessory(Player player, bool hideVisual) //Basically gives the full effects of nighttime celestial shell and with extra bonuses
+        public override void UpdateAccessory(Player player, bool hideVisual) 
         {
 
             player.statLifeMax2 += 60; 
@@ -42,5 +41,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+
 
 

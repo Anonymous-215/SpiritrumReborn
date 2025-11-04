@@ -13,8 +13,6 @@ namespace SpiritrumReborn.Content.Items.Weapons
     {
         public override void SetDefaults()
         {
-            // For now it doesn't have any projectile (the projectile also needs to be remade)
-            // Resprite is planned
             Item.damage = 128;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
@@ -36,4 +34,5 @@ namespace SpiritrumReborn.Content.Items.Weapons
 }
 
 
-// I want it to have a custom swing animation
+
+

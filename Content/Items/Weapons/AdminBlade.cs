@@ -3,7 +3,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
-// IMPORTANT: This is a testing weapon
 namespace SpiritrumReborn.Content.Items.Weapons
 { 
 	public class AdminBlade : ModItem
@@ -26,5 +25,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
 		}
 	}
 }
+
+
 
 

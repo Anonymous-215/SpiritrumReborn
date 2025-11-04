@@ -8,21 +8,20 @@ using static Terraria.ModLoader.ModContent;
 
 namespace SpiritrumReborn.Content.Items.Weapons
 {
-	public class BerserkedAncientClaymore : ModItem //Previously Ancient Katana
+	public class BerserkedAncientClaymore : ModItem 
 	{
 
 		public override void SetDefaults()
 		{
-			// Has been reworked to be a very slow, but really hard hitting and big weapon
-			Item.damage = 105; // more damage
+			Item.damage = 105; 
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 48;
 			Item.height = 48;
 			Item.useTime = 10;
 			Item.useAnimation = 35;
 			Item.useStyle = ItemUseStyleID.Swing;
-			Item.knockBack = 10; // more knockback
-			Item.scale = 2.0f; //even bigger
+			Item.knockBack = 10; 
+			Item.scale = 2.0f; 
 			Item.value = Item.buyPrice(gold: 15);
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
@@ -33,10 +32,11 @@ namespace SpiritrumReborn.Content.Items.Weapons
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemType<AncientClaymore>(), 1);
-			// will have a special item here
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
 	}
 }
+
+
 

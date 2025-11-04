@@ -32,11 +32,11 @@ namespace SpiritrumReborn.Content.Projectiles
 		public override bool PreAI()
 		{
 			int mode = (int)Projectile.ai[0];
-			if (Main.rand.NextBool(2)) //This makes it so that the ball produces dusst every 2 ticks.
+			if (Main.rand.NextBool(2)) 
 			{
 				int dustType = DustID.Smoke;
-				if (mode == 0) dustType = DustID.Torch; //spin
-				else if (mode == 1 || mode == 2) dustType = DustID.Frost; //Throw + return
+				if (mode == 0) dustType = DustID.Torch; 
+				else if (mode == 1 || mode == 2) dustType = DustID.Frost; 
 				var d = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, dustType);
 				d.velocity *= 1.5f;
 				d.noGravity = false;
@@ -47,15 +47,15 @@ namespace SpiritrumReborn.Content.Projectiles
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			int mode = (int)Projectile.ai[0];
-			if (mode == 0) //This is while spinning
+			if (mode == 0) 
 			{
 				target.AddBuff(BuffID.OnFire3, 360);
 			}
-			else if (mode == 1) //This is when thrown
+			else if (mode == 1) 
 			{
 				target.AddBuff(BuffID.Frostburn2, 240);
 			}
-			else if (mode == 2) //This is so that the ball can return to the player
+			else if (mode == 2) 
 			{
 				int nextTarget = -1;
 				float bestDist = 400f;
@@ -76,6 +76,8 @@ namespace SpiritrumReborn.Content.Projectiles
 		}
 	}
 }
+
+
 
 
 

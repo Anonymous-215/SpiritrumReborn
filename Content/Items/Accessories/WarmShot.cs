@@ -19,9 +19,8 @@ namespace SpiritrumReborn.Content.Items.Accessories
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.AddBuff(BuffID.Warmth, 2); //Permanent warmth buff
+            player.AddBuff(BuffID.Warmth, 2); 
 
-            //I added these failsafes in case warmth doesn't make the player immune for some reasons
             player.buffImmune[BuffID.Chilled] = true;
             player.buffImmune[BuffID.Frozen] = true;
             player.buffImmune[BuffID.Frostburn] = true;
@@ -31,4 +30,4 @@ namespace SpiritrumReborn.Content.Items.Accessories
 }
 
 
-// Nurse 100% drop chance
+

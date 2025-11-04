@@ -22,12 +22,14 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void AI()
         {
-            if (Projectile.velocity != Vector2.Zero) //points towards where they are going
+            if (Projectile.velocity != Vector2.Zero) 
             {
                 Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             }
         }
     }
 }
+
+
 
 

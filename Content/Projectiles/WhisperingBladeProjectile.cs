@@ -1,5 +1,4 @@
-﻿//This projectile 100% needs a resprite
-
+﻿
 
 using Terraria;
 using Terraria.ID;
@@ -10,7 +9,7 @@ namespace SpiritrumReborn.Content.Projectiles
     public class WhisperingBladeProjectile : ModProjectile
     {
 
-        public override void SetDefaults() //basic info
+        public override void SetDefaults() 
         {
             Projectile.width = 16;
             Projectile.height = 16;
@@ -26,7 +25,7 @@ namespace SpiritrumReborn.Content.Projectiles
             Projectile.extraUpdates = 1;                          
         }
 
-        public override void AI() // funny dust part
+        public override void AI() 
         {
             if (Main.rand.NextBool(2))
             {
@@ -43,12 +42,14 @@ namespace SpiritrumReborn.Content.Projectiles
 
         private float spinOffset;
 
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) //debuff infliction
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) 
         {
             target.AddBuff(BuffID.ShadowFlame, 120);               
 
         }
     }
 }
+
+
 
 

@@ -33,7 +33,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
         public override bool? UseItem(Player player)
         {
             int numProjectiles = 8;
-            float spread = MathHelper.ToRadians(18f); //fires 8 bones in a massive spread
+            float spread = MathHelper.ToRadians(18f); 
             Vector2 velocity = Vector2.Normalize(Main.MouseWorld - player.Center) * Item.shootSpeed;
             for (int i = 0; i < numProjectiles; i++)
             {
@@ -45,5 +45,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
         }
     }
 }
+
+
 
 

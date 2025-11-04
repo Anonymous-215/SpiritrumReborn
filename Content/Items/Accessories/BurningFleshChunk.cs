@@ -1,5 +1,4 @@
-﻿// Will need a resprite
-
+﻿
 
 using Terraria;
 using Terraria.ID;
@@ -29,7 +28,8 @@ namespace SpiritrumReborn.Content.Items.Accessories
 }
 
 
-//Legendary WoF drop
+
+
 
 
 

@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
@@ -36,10 +36,10 @@ namespace SpiritrumReborn.Content.Items.Weapons
 
 		public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
 		{
-			int numProjectiles = Main.rand.Next(2, 5); // this is the amount of projectiles per shot (2 to 5 here)
+			int numProjectiles = Main.rand.Next(2, 5); 
 			for (int i = 0; i < numProjectiles; i++)
 			{
-				Vector2 perturbedVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(18)); // This is the degrees of spread (max of 18 degrees here)
+				Vector2 perturbedVelocity = velocity.RotatedByRandom(MathHelper.ToRadians(18)); 
 				Projectile.NewProjectile(source, position, perturbedVelocity, type, damage, knockback, player.whoAmI);
 			}
 			return false;
@@ -55,3 +55,5 @@ namespace SpiritrumReborn.Content.Items.Weapons
 		}
 	}
 }
+
+

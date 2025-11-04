@@ -13,7 +13,7 @@ namespace SpiritrumReborn.Content.Projectiles
 {
     public class PocketFairy : ModProjectile
     {
-        public override void SetStaticDefaults() //animates the projectile
+        public override void SetStaticDefaults() 
         {
             Main.projFrames[Projectile.type] = 4;
         }
@@ -34,10 +34,10 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void AI() 
         {
-            { // Makes the projectile fly towards the cursor location
+            { 
                 Projectile.rotation = Projectile.velocity.ToRotation() + MathHelper.PiOver2;
             }
-            Projectile.frameCounter++; //advances the frame
+            Projectile.frameCounter++; 
             if (Projectile.frameCounter >= 6) 
             {
                 Projectile.frameCounter = 0;
@@ -48,9 +48,11 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
-			target.AddBuff(BuffID.OnFire, 20); //simple debuff infliction
+			target.AddBuff(BuffID.OnFire, 20); 
 		}
     }
 }
+
+
 
 

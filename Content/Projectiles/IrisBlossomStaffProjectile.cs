@@ -23,7 +23,7 @@ namespace SpiritrumReborn.Content.Projectiles
         }
         public override void AI()
         {
-            Projectile.velocity.Y += 0.05f; //Gets slower over distance traveled
+            Projectile.velocity.Y += 0.05f; 
             Projectile.rotation += 0.1f * (float)Projectile.direction;
             if (Main.rand.NextBool(6))
             {
@@ -36,5 +36,7 @@ namespace SpiritrumReborn.Content.Projectiles
         }
     }
 }
+
+
 
 

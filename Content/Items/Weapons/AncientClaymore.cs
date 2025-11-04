@@ -9,12 +9,11 @@ using SpiritrumReborn.Content.Items.Materials;
 
 namespace SpiritrumReborn.Content.Items.Weapons
 {
-	public class AncientClaymore : ModItem //Previously Ancient Katana
+	public class AncientClaymore : ModItem 
 	{
 
 		public override void SetDefaults()
 		{
-			// Has been reworked to be a very slow, but really hard hitting and big weapon
 			Item.damage = 80;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 48;
@@ -32,13 +31,10 @@ namespace SpiritrumReborn.Content.Items.Weapons
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemType<ObscurioniteAlloy>(), 12);
-			// will have a special item here
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
 	}
 }
 
-// Ancient weapons are weapons that have upgrades through out the progression
-// Currently only this one exists
-// There will be, an ancient bow, an ancient tome and an ancient whip.
+

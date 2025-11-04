@@ -18,10 +18,10 @@ namespace SpiritrumReborn.Content.Items.Accessories
             Item.defense = 15;
         }
 
-        public override void UpdateAccessory(Player player, bool hideVisual) //This makes it so that nearby players get the Paladin Shield effect
+        public override void UpdateAccessory(Player player, bool hideVisual) 
         {
             player.noKnockback = true;
-            if (player.whoAmI == Main.myPlayer && player.team != 0) //Detects the player's team and location, and detects the nearby players taem
+            if (player.whoAmI == Main.myPlayer && player.team != 0) 
             {
                 for (int i = 0; i < Main.maxPlayers; i++)
                 {
@@ -105,7 +105,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
             player.buffImmune[BuffID.Silenced] = true;
       }
 
-        public override void AddRecipes() //Endgame recipe, planned to be used for the final boss
+        public override void AddRecipes() 
         {
             CreateRecipe()
                 .AddIngredient(ItemID.PaladinsShield)
@@ -120,5 +120,7 @@ namespace SpiritrumReborn.Content.Items.Accessories
         }
     }
 }
+
+
 
 

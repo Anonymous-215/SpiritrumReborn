@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -6,10 +6,8 @@ namespace SpiritrumReborn.Content.Items.Weapons
 { 
 	public class SpiritBlade : ModItem
 	{
-		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.SpiritrumReborn.hjson' file.
 		public override void SetDefaults()
 		{
-			//Currently just a recolor, but a unique sprite is needed
 			Item.damage = 115;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
@@ -18,7 +16,7 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			Item.useAnimation = 15;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6;
-			Item.scale = 2.5f; //going to be a pre-golem true melee sword
+			Item.scale = 2.5f; 
 			Item.value = Item.buyPrice(gold: 15);
 			Item.rare = ItemRarityID.Cyan;
 			Item.UseSound = SoundID.Item1;
@@ -26,7 +24,6 @@ namespace SpiritrumReborn.Content.Items.Weapons
 		}
 
 
-		// When you kill something, it should release some homing spirits to attack nearby enemies (only true melee kills can summon them)
 
 		public override void AddRecipes()
 		{
@@ -39,3 +36,5 @@ namespace SpiritrumReborn.Content.Items.Weapons
 		}
 	}
 }
+
+

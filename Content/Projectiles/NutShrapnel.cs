@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -21,11 +21,13 @@ namespace SpiritrumReborn.Content.Projectiles
 
         public override void AI()
         {
-            Projectile.rotation += 0.3f * Projectile.direction; //rotation
-            if (Main.rand.NextBool(3))//dust production
+            Projectile.rotation += 0.3f * Projectile.direction; 
+            if (Main.rand.NextBool(3))
             {
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.WoodFurniture, 0f, 0f, 100, default, 0.8f);
             }
         }
     }
 }
+
+

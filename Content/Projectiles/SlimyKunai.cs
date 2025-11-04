@@ -33,7 +33,7 @@ namespace SpiritrumReborn.Content.Projectiles
 
 		public override bool OnTileCollide(Vector2 oldVelocity)
 		{
-			pierceLeft--; //loses 1 pierce on bounce
+			pierceLeft--; 
 			if (pierceLeft <= 0)
 				return true; 
 
@@ -48,11 +48,13 @@ namespace SpiritrumReborn.Content.Projectiles
 
 		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
-			pierceLeft--; //if on bounce, pierce goes to 0, the projectile is gone
+			pierceLeft--; 
 			if (pierceLeft <= 0)
 				Projectile.Kill();
 		}
 	}
 }
+
+
 
 

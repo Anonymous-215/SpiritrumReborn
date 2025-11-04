@@ -11,12 +11,12 @@ namespace SpiritrumReborn.Content.Items.Consumables
 {
 	public class Spectralite : ModItem
 	{
-		public override bool CanUseItem(Player player) //This detects if the player didn't consume Spectralite
+		public override bool CanUseItem(Player player) 
 		{
 			return player.statManaMax == 200 && player.GetModPlayer<SpectralitePlayer>().spectraliteConsumed == 0; 
 		}
 
-		public override bool? UseItem(Player player) //This is simply the variables
+		public override bool? UseItem(Player player) 
 		{
 			player.GetModPlayer<SpectralitePlayer>().spectraliteMana = 100; 
 			player.GetModPlayer<SpectralitePlayer>().spectraliteConsumed = 1; 
@@ -25,7 +25,7 @@ namespace SpiritrumReborn.Content.Items.Consumables
 			return true; 
 		}
 
-		public override void SetDefaults() //Basic info
+		public override void SetDefaults() 
 		{
 			Item.width = 20;
 			Item.height = 20;
@@ -38,9 +38,9 @@ namespace SpiritrumReborn.Content.Items.Consumables
 			Item.consumable = true; 
 		}
 
-		public override void AddRecipes() //Recipe
+		public override void AddRecipes() 
 		{
-			Recipe recipe = CreateRecipe(3); //Crafts multiple because it can also be used in some recipes
+			Recipe recipe = CreateRecipe(3); 
 			recipe.AddIngredient(ItemID.Ectoplasm, 1); 
 			recipe.AddIngredient(ItemID.HallowedBar, 1); 
 			recipe.AddTile(TileID.MythrilAnvil); 
@@ -48,8 +48,7 @@ namespace SpiritrumReborn.Content.Items.Consumables
 		}
 	}
 
-	public class SpectralitePlayer : ModPlayer// Here is the player to make sure the player can have 300 base max mana and max 500 mana.
-	// Yes it bypasses the 400 limit
+	public class SpectralitePlayer : ModPlayer
 	{
 		public int spectraliteMana = 0; 
 		public int spectraliteConsumed = 0; 
@@ -62,5 +61,7 @@ namespace SpiritrumReborn.Content.Items.Consumables
 
 	}
 }
+
+
 
 

@@ -7,7 +7,7 @@ namespace SpiritrumReborn.Content.Projectiles
 {
     public class Egged : ModProjectile
     {
-        public override void SetDefaults() // Basic info
+        public override void SetDefaults() 
         {
             Projectile.width = 10;
             Projectile.height = 10;
@@ -18,12 +18,14 @@ namespace SpiritrumReborn.Content.Projectiles
             Projectile.penetrate = 1;
         }
 
-        public override void AI() // Simple rotation
+        public override void AI() 
         {
             Projectile.rotation += 0.3f;
             Projectile.velocity.Y += 0.15f;
         }
     }
 }
+
+
 
 

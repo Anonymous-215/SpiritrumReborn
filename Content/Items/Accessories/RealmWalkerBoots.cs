@@ -41,4 +41,4 @@ namespace SpiritrumReborn.Content.Items.Accessories
 }
 
 
-// In case some mods are enabled, there will be a recipe override
+
