@@ -873,6 +873,11 @@ Items: {
 		DisplayName: Anthrax Gas Grenade
 	}
 
+	Anthrax: {
+		Tooltip: ""
+		DisplayName: Anthrax
+	}
+
 	VoidHunterHeadgear: {
 		DisplayName: Void Hunter Headgear
 		Tooltip: ""
@@ -901,6 +906,21 @@ Items: {
 	VoidHunterVisor: {
 		DisplayName: Void Hunter Visor
 		Tooltip: ""
+	}
+
+	LMG: {
+		Tooltip: ""
+		DisplayName: L M G
+	}
+
+	CalamityRevolver: {
+		Tooltip: ""
+		DisplayName: Calamity Revolver
+	}
+
+	RoPro9000: {
+		Tooltip: ""
+		DisplayName: Ro Pro9000
 	}
 }
 
@@ -943,6 +963,9 @@ Projectiles: {
 	AdamantiteEnergyOrb.DisplayName: Adamantite Energy Orb
 	TitaniumMass.DisplayName: Titanium Mass
 	TitaniumArrowProj.DisplayName: Titanium Arrow Proj
+	CalamityLaser.DisplayName: Calamity Laser
+	CalamityRevolverSpin.DisplayName: Calamity Revolver Spin
+	RoPro9000_Telegraph.DisplayName: Ro Pro9000_ Telegraph
 }
 
 NPCs: {
