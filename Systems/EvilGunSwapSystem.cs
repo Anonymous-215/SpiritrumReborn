@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace SpiritrumReborn.Content.Systems
+namespace SpiritrumReborn.Systems
 {
     public class EvilGunSwapSystem : ModSystem
     {

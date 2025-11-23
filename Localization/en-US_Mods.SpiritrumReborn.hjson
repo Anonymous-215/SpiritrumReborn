@@ -829,42 +829,67 @@ Items: {
 	}
 
 	PenumbralLeggings: {
-		Tooltip: ""
+		Tooltip: +8% movement and jump speed
 		DisplayName: Penumbral Leggings
 	}
 
 	PenumbralHelm: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			+8% magic and melee damage
+			-15% mana cost
+			'''
 		DisplayName: Penumbral Helm
 	}
 
 	PenumbralChestplate: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			+6% magic and melee damage
+			+20 max mana
+			'''
 		DisplayName: Penumbral Chestplate
 	}
 
 	GalacticGoogPaws: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			+9% movement speed
+			+8% damage
+			-5% mana cost
+			'''
 		DisplayName: Galactic Goog Paws
 	}
 
 	GalacticGoogMask: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			+8% damage and critical chance
+			+20 max mana
+			'''
 		DisplayName: Galactic Goog Mask
 	}
 
 	GalacticGoogBody: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			+8% damage and attack speed
+			+20 max health
+			'''
 		DisplayName: Galactic Goog Body
 	}
 
 	KrakenBolt: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Used with the bolter
+			25 armor penetration
+			'''
 		DisplayName: Kraken Bolt
 	}
 
 	Bolt: {
-		Tooltip: ""
+		Tooltip: Used with the bolter
 		DisplayName: Bolt
 	}
 
@@ -874,59 +899,248 @@ Items: {
 	}
 
 	Anthrax: {
-		Tooltip: ""
+		Tooltip: Uses Anthrax Gas Grenades
 		DisplayName: Anthrax
 	}
 
 	VoidHunterHeadgear: {
 		DisplayName: Void Hunter Headgear
-		Tooltip: ""
+		Tooltip:
+			'''
+			+18% melee damage
+			+12% melee critical chance
+			'''
 	}
 
 	VoidHunterHelmet: {
 		DisplayName: Void Hunter Helmet
-		Tooltip: ""
+		Tooltip:
+			'''
+			+18% magic damage
+			+12% magic critical chance
+			-10% mana cost
+			'''
 	}
 
 	VoidHunterLeggings: {
 		DisplayName: Void Hunter Leggings
-		Tooltip: ""
+		Tooltip:
+			'''
+			+14% movement speed
+			+5% damage
+			'''
 	}
 
 	VoidHunterMask: {
 		DisplayName: Void Hunter Mask
-		Tooltip: ""
+		Tooltip:
+			'''
+			+18% ranged damage
+			+12% ranged critical chance
+			'''
 	}
 
 	VoidHunterPlate: {
 		DisplayName: Void Hunter Plate
-		Tooltip: ""
+		Tooltip:
+			'''
+			+8% damage reduction
+			+20 max health
+			'''
 	}
 
 	VoidHunterVisor: {
 		DisplayName: Void Hunter Visor
-		Tooltip: ""
+		Tooltip:
+			'''
+			+18% summon damage
+			+1 summon slot
+			'''
 	}
 
 	LMG: {
-		Tooltip: ""
-		DisplayName: L M G
+		Tooltip: 75% chance to not consume ammo
+		DisplayName: LMG
 	}
 
 	CalamityRevolver: {
-		Tooltip: ""
+		Tooltip:
+			'''
+			Right click to spin the revolver to enhance your 6 next shots
+			Has a cooldown of 30 seconds
+			'''
 		DisplayName: Calamity Revolver
 	}
 
 	RoPro9000: {
+		Tooltip: Dedicated Item
+		DisplayName: RoPro9000
+	}
+
+	MarbleGrail: {
+		Tooltip:
+			'''
+			Massively inaccurate
+			Create a massive amount of dust, use at your own risk
+			'''
+		DisplayName: Marble Grail
+	}
+
+	FrostBreaker: {
 		Tooltip: ""
-		DisplayName: Ro Pro9000
+		DisplayName: Frost Breaker
+	}
+
+	EchoingLancer: {
+		DisplayName: Echoing Lancer
+		Tooltip: ""
+	}
+
+	CaptainCompass: {
+		DisplayName: Captain Compass
+		Tooltip: ""
+	}
+
+	CryoglyphAmulet: {
+		DisplayName: Cryoglyph Amulet
+		Tooltip: ""
+	}
+
+	CrystallineCrown: {
+		DisplayName: Crystalline Crown
+		Tooltip: ""
+	}
+
+	ElementalGauntlet: {
+		DisplayName: Elemental Gauntlet
+		Tooltip: ""
+	}
+
+	ElementalSerum: {
+		DisplayName: Elemental Serum
+		Tooltip: ""
+	}
+
+	EternalGauntlet: {
+		DisplayName: Eternal Gauntlet
+		Tooltip: ""
+	}
+
+	MechanicalSoulVessel: {
+		DisplayName: Mechanical Soul Vessel
+		Tooltip: ""
+	}
+
+	RunedTattoo: {
+		DisplayName: Runed Tattoo
+		Tooltip: ""
+	}
+
+	SpiderSyringe: {
+		DisplayName: Spider Syringe
+		Tooltip: ""
+	}
+
+	TimCharm: {
+		DisplayName: Tim Charm
+		Tooltip: ""
+	}
+
+	VoidClaws: {
+		DisplayName: Void Claws
+		Tooltip: ""
+	}
+
+	VolcanicSyringe: {
+		DisplayName: Volcanic Syringe
+		Tooltip: ""
+	}
+
+	BartenderReliable: {
+		DisplayName: Bartender Reliable
+		Tooltip: ""
+	}
+
+	Bolter: {
+		DisplayName: Bolter
+		Tooltip: ""
+	}
+
+	ButterflyWand: {
+		DisplayName: Butterfly Wand
+		Tooltip: ""
+	}
+
+	CopiumSpelltome: {
+		DisplayName: Copium Spelltome
+		Tooltip: ""
+	}
+
+	CopiumWand: {
+		DisplayName: Copium Wand
+		Tooltip: ""
+	}
+
+	DecayingWand: {
+		DisplayName: Decaying Wand
+		Tooltip: ""
+	}
+
+	ElementalRevolver: {
+		DisplayName: Elemental Revolver
+		Tooltip: ""
+	}
+
+	GoogBlast: {
+		DisplayName: Goog Blast
+		Tooltip: ""
+	}
+
+	GoogBlaster: {
+		DisplayName: Goog Blaster
+		Tooltip: ""
+	}
+
+	NamelessCodex: {
+		DisplayName: Nameless Codex
+		Tooltip: ""
+	}
+
+	NoDeerClaw: {
+		DisplayName: No Deer Claw
+		Tooltip: ""
+	}
+
+	PascaliteStaff: {
+		DisplayName: Pascalite Staff
+		Tooltip: ""
+	}
+
+	PascaliteSunflower: {
+		DisplayName: Pascalite Sunflower
+		Tooltip: ""
+	}
+
+	TheGrimWraith: {
+		DisplayName: The Grim Wraith
+		Tooltip: ""
+	}
+
+	FrozoniteOre: {
+		Tooltip: ""
+		DisplayName: Frozonite Ore
+	}
+
+	FrozoniteBar: {
+		Tooltip: ""
+		DisplayName: Frozonite Bar
 	}
 }
 
 Tiles: {
 	ObscuroniteOre.MapEntry: Obscuronite Ore
 	ObscurioniteOre.MapEntry: Obscurionite Ore
+	FrozoniteOre.MapEntry: Frozonite Ore
 }
 
 WorldGen: {
@@ -959,13 +1173,66 @@ Projectiles: {
 	AnthraxProjectile.DisplayName: Anthrax Gas Grenade
 	PalladiumShockwave.DisplayName: Palladium Shockwave
 	MythrilRicochet.DisplayName: Mythril Ricochet
-	OrichalcumFlowerPetal.DisplayName: Orichalcum Flower Petal
+	OrichalcumFlowerPetal.DisplayName: Flower Petal
 	AdamantiteEnergyOrb.DisplayName: Adamantite Energy Orb
 	TitaniumMass.DisplayName: Titanium Mass
-	TitaniumArrowProj.DisplayName: Titanium Arrow Proj
+	TitaniumArrowProj.DisplayName: Titanium Arrow
 	CalamityLaser.DisplayName: Calamity Laser
-	CalamityRevolverSpin.DisplayName: Calamity Revolver Spin
-	RoPro9000_Telegraph.DisplayName: Ro Pro9000_ Telegraph
+	CalamityRevolverSpin.DisplayName: Spin?
+	RoPro9000_Telegraph.DisplayName: Goproed
+	EchoingLancerArrow.DisplayName: Echoing Lancer Arrow
+	BeerStream.DisplayName: Beer Stream
+	ClawBladeProjectile.DisplayName: Claw Blade Projectile
+	CopiumBlast.DisplayName: Copium Blast
+	CopiumBullet.DisplayName: Copium Bullet
+	CopiumEnergy.DisplayName: Copium Energy
+	CopiumSpark.DisplayName: Copium Spark
+	CopiumSpelltomeCasting.DisplayName: Copium Spelltome Casting
+	CosmicOrbit.DisplayName: Cosmic Orbit
+	CrystallineCrownSpike.DisplayName: Crystalline Crown Spike
+	DeathBug.DisplayName: Death Bug
+	DecayShard.DisplayName: Decay Shard
+	DimensionalTearProjectile.DisplayName: Dimensional Tear Projectile
+	ElementalBladeProjectile.DisplayName: Elemental Blade Projectile
+	FrostBreakerShard.DisplayName: Frost Breaker Shard
+	FrozoFlake.DisplayName: Frozo Flake
+	FrozoniteAura.DisplayName: Frozonite Aura
+	FrozoniteAuraTravel.DisplayName: Frozonite Aura Travel
+	GoogBlast_Projectile.DisplayName: Goog Blast_ Projectile
+	GooglingCompanion.DisplayName: Googling Companion
+	GooglingCompanionGalactic.DisplayName: Googling Companion Galactic
+	GooglingCompanionTravel.DisplayName: Googling Companion Travel
+	GraniteGrenadeProjectile.DisplayName: Granite Grenade Projectile
+	HolyButterfly.DisplayName: Holy Butterfly
+	IceCube.DisplayName: Ice Cube
+	LightningUmbrellaCloud.DisplayName: Lightning Umbrella Cloud
+	NamelessParasiteMinion.DisplayName: Nameless Parasite Minion
+	CrimsonDart.DisplayName: Crimson Dart
+	NamelessCodexProjectile.DisplayName: Nameless Codex Projectile
+	NoDeerClawProj.DisplayName: No Deer Claw Proj
+	PascaliteOrb.DisplayName: Pascalite Orb
+	PascaliteSunflowerSummon.DisplayName: Pascalite Sunflower Summon
+	PenumbriumEchoBolt.DisplayName: Penumbrium Echo Bolt
+	PenumbriumEchoSummon.DisplayName: Penumbrium Echo Summon
+	PenumbriumRing.DisplayName: Penumbrium Ring
+	RealityBreakProjectile.DisplayName: Reality Break Projectile
+	CrimSandstone.DisplayName: Crim Sandstone
+	EbonSandstone.DisplayName: Ebon Sandstone
+	PearlSandstone.DisplayName: Pearl Sandstone
+	Sandstone.DisplayName: Sandstone
+	ShadowCloneProjectile.DisplayName: Shadow Clone Projectile
+	SkinwalkerClawBarrierProjectile.DisplayName: Skinwalker Claw Barrier Projectile
+	SnowyOwlStaffProjectile.DisplayName: Snowy Owl Staff Projectile
+	TheGrimWraith.DisplayName: The Grim Wraith
+	VoidBoltProjectile.DisplayName: Void Bolt Projectile
+	VoidBolts.DisplayName: Void Bolts
+	VoidExplosionProjectile.DisplayName: Void Explosion Projectile
+	VoidHarbingerBossProjectile.DisplayName: Void Harbinger Boss Projectile
+	VoidNovaProjectile.DisplayName: Void Nova Projectile
+	VoidPortal.DisplayName: Void Portal
+	VoidResonatorProjectile.DisplayName: Void Resonator Projectile
+	VoidRiftProjectile.DisplayName: Void Rift Projectile
+	VoidStormProjectile.DisplayName: Void Storm Projectile
 }
 
 NPCs: {
@@ -985,6 +1252,11 @@ NPCs: {
 			Princess_LovesNPC: I like {NPCName}.
 		}
 	}
+
+	FrostEmperor.DisplayName: Frost Emperor
+	FrostEmpire.DisplayName: Frost Empire
+	FrostEmpress.DisplayName: Frost Empress
+	VoidHarbinger.DisplayName: Void Harbinger
 }
 
 Buffs: {

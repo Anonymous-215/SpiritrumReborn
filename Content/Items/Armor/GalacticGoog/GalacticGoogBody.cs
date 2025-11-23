@@ -21,7 +21,7 @@ namespace SpiritrumReborn.Content.Items.Armor.GalacticGoog
         {
             player.GetDamage(DamageClass.Generic) += 0.08f;
             player.statLifeMax2 += 20; 
-            player.GetAttackSpeed(DamageClass.Generic) += 0.06f; 
+            player.GetAttackSpeed(DamageClass.Generic) += 0.08f; 
         }
 
         public override void AddRecipes()

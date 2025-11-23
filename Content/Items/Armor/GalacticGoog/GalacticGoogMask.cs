@@ -20,7 +20,7 @@ namespace SpiritrumReborn.Content.Items.Armor.GalacticGoog
         public override void UpdateEquip(Player player)
         {
             player.GetDamage(DamageClass.Generic) += 0.08f;
-            player.GetCritChance(DamageClass.Generic) += 6f; 
+            player.GetCritChance(DamageClass.Generic) += 8f; 
             player.statManaMax2 += 20; 
         }
 

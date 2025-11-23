@@ -16,10 +16,6 @@ namespace SpiritrumReborn.Content.Items.Armor.VoidHunter
             Item.rare = ItemRarityID.Red;
             Item.defense = 22;
         }
-        public override void ModifyTooltips(System.Collections.Generic.List<Terraria.ModLoader.TooltipLine> tooltips)
-        {
-            tooltips.Add(new Terraria.ModLoader.TooltipLine(Mod, "VoidHunterLeggingsInfo", "14% increased movement speed and 5% increased damage"));
-        }
         public override void UpdateEquip(Player player)
         {
             player.moveSpeed += 0.14f;

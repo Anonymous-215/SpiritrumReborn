@@ -16,10 +16,6 @@ namespace SpiritrumReborn.Content.Items.Armor.VoidHunter
             Item.rare = ItemRarityID.Red;
             Item.defense = 34;
         }
-        public override void ModifyTooltips(System.Collections.Generic.List<Terraria.ModLoader.TooltipLine> tooltips)
-        {
-            tooltips.Add(new Terraria.ModLoader.TooltipLine(Mod, "VoidHunterPlateInfo", "8% increased damage reduction and +20 max life"));
-        }
         public override void UpdateEquip(Player player)
         {
             player.endurance += 0.08f;

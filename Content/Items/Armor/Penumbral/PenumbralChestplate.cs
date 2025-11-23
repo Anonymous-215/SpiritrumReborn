@@ -19,7 +19,7 @@ namespace SpiritrumReborn.Content.Items.Armor.Penumbral
         public override void UpdateEquip(Player player)
         {
             player.GetDamage(DamageClass.Melee) += 0.06f;
-            player.GetDamage(DamageClass.Magic) += 0.05f;
+            player.GetDamage(DamageClass.Magic) += 0.06f;
             player.statManaMax2 += 20;
         }
 

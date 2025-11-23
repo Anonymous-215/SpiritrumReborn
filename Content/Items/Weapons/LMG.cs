@@ -42,13 +42,6 @@ namespace SpiritrumReborn.Content.Items.Weapons
 			return new Vector2(-12, 3); 
 		}
 
-		public override void ModifyTooltips(List<TooltipLine> tooltips)
-		{
-			tooltips.Add(new TooltipLine(Mod, "LMGTipAmmo", "75% chance to not consume ammo"));
-			tooltips.Add(new TooltipLine(Mod, "LMGTipCost", "It costs 210 copper coins to fire this weapon for 12 seconds")); 
-
-		}
-
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
